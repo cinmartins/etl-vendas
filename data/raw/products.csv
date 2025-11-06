@@ -1,501 +1,501 @@
 id,nome,categoria,preco,estoque,fornecedor
-1,Nihil Porro,Bebidas,238.74,809,Novaes
-2,Repudiandae Libero,Esportes,328.08,187,Gonçalves Barbosa - EI
-3,Hic Asperiores,Saúde,240.0,163,da Paz
-4,Ex Qui,Casa,433.7,2,Cunha
-5,Eius Nostrum,Saúde,259.77,127,Barbosa S/A
-6,Ad Aspernatur,Livros,45.88,842,Gomes
-7,Nemo Cumque,Saúde,387.59,992,Silveira
-8,Pariatur Corporis,Esportes,91.26,837,Azevedo
-9,Ducimus Qui,Alimentos,153.51,687,Freitas S/A
-10,Occaecati Deleniti,Alimentos,449.0,337,da Cruz Peixoto Ltda.
-11,Consectetur Earum,Alimentos,271.08,369,Lopes
-12,Architecto Inventore,Beleza,283.55,447,Moreira
-13,Neque Reiciendis,Bebidas,359.96,381,Gomes S/A
-14,Molestiae Quia,Beleza,72.54,981,Teixeira Novaes - EI
-15,Magni Aliquid,Brinquedos,264.4,838,Freitas
-16,Tempora A,Brinquedos,373.44,8,Viana
-17,Ex Expedita,Alimentos,33.3,436,da Conceição
-18,Sint Labore,Bebidas,307.87,27,Pinto e Filhos
-19,Repellat Repudiandae,Eletrônicos,444.02,93,Rocha - EI
-20,Corporis Corrupti,Alimentos,133.82,891,Silva Sales S/A
-21,Quisquam Odio,Brinquedos,313.43,163,Porto
-22,Magni Neque,Casa,389.71,875,Moura
-23,Expedita Voluptate,Eletrônicos,195.13,87,Fogaça - ME
-24,Quis Qui,Saúde,32.03,821,Correia Ltda.
-25,Perspiciatis Eligendi,Esportes,77.92,342,Monteiro - ME
-26,Deleniti Ipsa,Roupas,452.6,524,Novaes da Rosa Ltda.
-27,Adipisci Id,Casa,443.83,456,Rezende Lima S/A
-28,Temporibus Eveniet,Brinquedos,492.25,573,Martins
-29,Blanditiis Sequi,Livros,428.72,193,Ferreira
-30,Atque Quasi,Eletrônicos,167.79,952,Caldeira
-31,Maxime Vel,Livros,71.21,333,Barbosa Alves S/A
-32,Quo Cum,Brinquedos,420.49,861,Cavalcanti
-33,Dicta Eum,Bebidas,343.24,930,Almeida
-34,Consectetur Consectetur,Roupas,215.8,113,Oliveira Santos - ME
-35,Atque Modi,Eletrônicos,292.82,934,das Neves S.A.
-36,Dignissimos Necessitatibus,Saúde,137.64,592,da Cruz S.A.
-37,Distinctio Sapiente,Saúde,289.88,32,Correia
-38,Quas Unde,Livros,371.1,500,Ramos - EI
-39,Maiores Explicabo,Livros,292.13,487,Moura
-40,Ullam Aliquid,Alimentos,322.38,818,Sales
-41,Quia Animi,Bebidas,270.11,238,da Paz Ramos - EI
-42,Eligendi Rerum,Beleza,223.65,391,Pinto
-43,Illo Eveniet,Esportes,39.01,804,da Cruz
-44,Repellat Sed,Bebidas,480.86,260,Viana - ME
-45,Harum Doloremque,Esportes,135.03,435,da Costa
-46,Reiciendis Expedita,Saúde,116.5,610,Rocha
-47,Laboriosam Expedita,Beleza,382.95,76,Silva
-48,Incidunt Officia,Eletrônicos,469.45,169,Lima
-49,Ex Sunt,Brinquedos,393.57,451,Monteiro S/A
-50,Dolore Vitae,Brinquedos,250.63,786,Cavalcanti
-51,Voluptatum Mollitia,Esportes,129.77,17,Costela da Mota Ltda.
-52,Consectetur Sequi,Saúde,277.79,604,Alves
-53,Nam Eveniet,Alimentos,229.26,803,da Mata Cunha S/A
-54,Enim Reiciendis,Esportes,188.82,404,Barbosa Campos S/A
-55,Sint Voluptatibus,Saúde,310.23,139,da Luz Cunha Ltda.
-56,Autem Quos,Alimentos,206.69,691,Correia
-57,Exercitationem Possimus,Eletrônicos,450.46,234,da Mota Carvalho S/A
-58,Consequuntur Asperiores,Saúde,74.55,817,Santos Ltda.
-59,Odit Doloribus,Saúde,331.73,471,da Mota
-60,Dolorem Excepturi,Esportes,42.06,4,Lopes
-61,Velit Ex,Casa,232.26,385,Gomes
-62,Magnam Qui,Beleza,10.7,41,Azevedo Viana - EI
-63,Tempora Illo,Esportes,113.47,842,Gomes
-64,Aliquid Fuga,Saúde,470.52,325,da Cruz Silveira S/A
-65,Fuga Qui,Eletrônicos,236.91,750,Jesus S/A
-66,Ipsam Veritatis,Livros,289.95,920,da Mota S/A
-67,Minus Veniam,Casa,134.58,556,Araújo
-68,Ipsum Maxime,Beleza,70.12,164,Pereira da Paz e Filhos
-69,Fugit Eligendi,Saúde,16.44,423,da Cunha
-70,Impedit Saepe,Eletrônicos,252.6,1,Jesus Almeida - ME
-71,Sequi Rem,Beleza,249.5,686,Peixoto Cardoso e Filhos
-72,Eius Iusto,Eletrônicos,273.53,223,Farias Farias S/A
-73,Modi Expedita,Livros,321.96,34,Azevedo
-74,Sed Nobis,Alimentos,458.04,654,Vieira
-75,Unde Hic,Alimentos,427.57,243,Pereira
-76,Omnis Blanditiis,Bebidas,421.0,74,Pires S/A
-77,Eos Id,Esportes,336.16,527,Lima e Filhos
-78,Magnam Nulla,Eletrônicos,374.36,828,das Neves
-79,Excepturi Minima,Bebidas,78.6,496,Cavalcanti Nogueira - EI
-80,Incidunt Veritatis,Esportes,51.86,999,Cunha da Conceição Ltda.
-81,Non Consequuntur,Bebidas,413.25,903,Lopes Ltda.
-82,Ea Dolorum,Casa,129.66,300,Moura
-83,Accusamus Nihil,Bebidas,372.19,711,Jesus da Conceição - EI
-84,Praesentium Laudantium,Saúde,319.55,658,Teixeira Lima - ME
-85,Illo Minima,Beleza,30.54,747,Costa Ltda.
-86,Libero Provident,Bebidas,152.98,718,Pires
-87,Facere Vero,Beleza,83.83,368,da Conceição S/A
-88,Laudantium Autem,Bebidas,290.38,509,Rodrigues
-89,Architecto Optio,Alimentos,203.9,313,Pires
-90,Aperiam Minus,Saúde,262.84,361,Pires
-91,Temporibus Deserunt,Saúde,148.51,592,Peixoto da Mata - EI
-92,Minus Animi,Brinquedos,68.59,762,Pereira
-93,Consectetur Aspernatur,Alimentos,431.48,677,Ribeiro e Filhos
-94,Ut Quod,Roupas,311.16,26,Mendes S/A
-95,Facilis Voluptates,Brinquedos,89.12,597,da Rosa Souza - EI
-96,Impedit Illo,Alimentos,288.23,709,Oliveira Souza Ltda.
-97,Nostrum Libero,Bebidas,68.71,476,da Luz - ME
-98,Odit Quae,Roupas,269.9,708,Teixeira
-99,Similique Cupiditate,Beleza,160.46,773,Alves
-100,Similique Enim,Beleza,95.15,748,Souza
-101,Alias Enim,Esportes,307.05,629,Silva
-102,Tempore Alias,Casa,352.53,868,da Rosa Gonçalves e Filhos
-103,Provident At,Brinquedos,327.9,436,Caldeira Sales S/A
-104,Doloremque Nobis,Saúde,392.25,732,Castro - EI
-105,Tempora Fuga,Saúde,42.88,749,Viana S.A.
-106,Facere Ex,Livros,293.56,844,Farias da Costa e Filhos
-107,Deleniti Provident,Beleza,142.65,323,Peixoto Lopes e Filhos
-108,Corrupti Minus,Esportes,23.74,201,da Mota Pereira S/A
-109,Quam Nam,Bebidas,312.59,428,das Neves e Filhos
-110,Eveniet Cumque,Livros,267.3,281,Ferreira Lopes S/A
-111,Quaerat Voluptatem,Roupas,499.7,26,Alves
-112,Provident Cupiditate,Casa,110.86,630,Moraes
-113,Dolor Quam,Esportes,196.83,879,Lopes Duarte e Filhos
-114,Minima Temporibus,Eletrônicos,193.76,904,Freitas Oliveira - EI
-115,Hic Minus,Bebidas,135.6,202,Ferreira Ltda.
-116,Quo Pariatur,Beleza,129.47,465,Fernandes Alves - ME
-117,Ex Qui,Beleza,237.6,359,Alves
-118,Voluptates Aspernatur,Esportes,407.74,679,da Conceição Rodrigues e Filhos
-119,Velit Perspiciatis,Saúde,339.84,589,Porto S/A
-120,Delectus Mollitia,Eletrônicos,214.23,947,da Conceição S.A.
-121,Atque Aut,Brinquedos,264.43,341,Nunes
-122,Eligendi Facere,Alimentos,413.42,706,Farias
-123,Voluptas Aut,Bebidas,97.47,20,Mendes e Filhos
-124,Quod Doloribus,Livros,261.24,382,Silva
-125,Beatae Quisquam,Beleza,466.53,656,Gonçalves
-126,Dolores Magnam,Beleza,190.31,213,Rezende
-127,Veritatis Possimus,Brinquedos,333.88,598,Costela
-128,Maiores Soluta,Eletrônicos,256.89,688,Santos - EI
-129,Ut Doloremque,Saúde,69.1,19,da Mota S/A
-130,Magni Earum,Casa,476.43,996,Pinto
-131,Eum Magnam,Roupas,433.53,152,Costela
-132,Rerum Natus,Esportes,243.78,227,Correia - ME
-133,Aliquam Officia,Roupas,90.86,522,Ribeiro Ltda.
-134,Quo Quaerat,Saúde,227.29,569,Caldeira Lopes - EI
-135,Ad Quidem,Alimentos,236.38,226,Dias
-136,Placeat Quisquam,Casa,31.93,728,Teixeira
-137,Totam Repellendus,Roupas,442.92,512,Duarte
-138,Sunt Voluptatibus,Esportes,50.87,476,Gonçalves Nascimento Ltda.
-139,Dolorum Similique,Beleza,10.64,126,Carvalho S/A
-140,Quaerat Iusto,Livros,76.16,245,da Costa
-141,Omnis Totam,Esportes,302.09,518,Martins
-142,Laudantium Deleniti,Brinquedos,274.09,782,Jesus Ferreira Ltda.
-143,Quo Suscipit,Eletrônicos,195.89,148,Correia Cardoso - ME
-144,Veritatis Quis,Casa,62.43,15,Cunha Moraes S.A.
-145,Illo Iste,Beleza,185.44,342,da Paz Ltda.
-146,Reprehenderit Illo,Brinquedos,105.33,163,Peixoto Gomes - EI
-147,Magni Atque,Eletrônicos,42.64,421,Alves da Costa S.A.
-148,Ea Ex,Esportes,331.21,683,Araújo Farias e Filhos
-149,Quis Nemo,Casa,459.08,341,da Cunha S.A.
-150,Officiis Recusandae,Alimentos,227.24,44,Rocha
-151,Consequatur Unde,Roupas,142.14,184,Castro S.A.
-152,Voluptatum Numquam,Bebidas,166.94,900,Azevedo
-153,Ipsam Eum,Esportes,117.08,341,Silveira
-154,Officia Commodi,Saúde,295.44,22,Gonçalves
-155,Possimus Quisquam,Eletrônicos,115.75,567,Barros Martins S.A.
-156,Corrupti Quas,Beleza,72.29,29,Alves Azevedo S/A
-157,Sequi Quisquam,Livros,349.47,34,da Mata - EI
-158,Fugit Temporibus,Esportes,469.83,711,Lopes - ME
-159,Totam Sed,Bebidas,77.13,878,Mendes da Rocha e Filhos
-160,Doloremque Ipsum,Bebidas,335.24,618,Sales
-161,Accusamus Optio,Eletrônicos,25.88,161,Nascimento
-162,Iure Perspiciatis,Beleza,79.01,653,Pereira
-163,Reiciendis Similique,Eletrônicos,148.86,710,Pires Ferreira Ltda.
-164,Necessitatibus Similique,Casa,72.81,127,Moura Campos S.A.
-165,Ut Iure,Eletrônicos,47.13,87,Almeida S/A
-166,Officiis Nulla,Eletrônicos,387.78,620,Ribeiro
-167,Quasi Esse,Brinquedos,269.43,522,Dias
-168,Consequuntur Facilis,Roupas,260.16,183,Santos Barbosa Ltda.
-169,Ad Rem,Livros,165.98,342,da Paz Teixeira S/A
-170,Aliquid Totam,Saúde,325.81,136,Alves
-171,Libero Corrupti,Esportes,195.5,77,Carvalho - EI
-172,Laboriosam Alias,Eletrônicos,464.23,685,Ribeiro da Mota - EI
-173,Repellat Error,Brinquedos,251.99,764,Aragão S.A.
-174,Quibusdam Fugit,Eletrônicos,210.94,455,Costela
-175,Cumque Nam,Brinquedos,434.25,256,Costa Fogaça Ltda.
-176,Sapiente Nam,Alimentos,100.46,130,Peixoto
-177,Beatae Hic,Roupas,75.39,782,Moreira Gonçalves - ME
-178,Dolores Eligendi,Saúde,209.33,545,Barros
-179,Maxime Corrupti,Brinquedos,139.58,801,Costela
-180,Similique Commodi,Saúde,446.39,831,Porto Costa Ltda.
-181,Dicta Cupiditate,Livros,396.92,792,Rezende Vieira e Filhos
-182,Doloremque Amet,Eletrônicos,144.34,612,Farias Peixoto e Filhos
-183,Nam Voluptatum,Brinquedos,12.9,591,Ramos
-184,Labore Qui,Bebidas,239.0,850,Alves
-185,Illum Iusto,Alimentos,174.43,720,Porto
-186,Adipisci Minus,Bebidas,102.45,295,Aragão Caldeira - ME
-187,Maiores Debitis,Beleza,301.68,352,da Cunha Martins e Filhos
-188,Minus Facilis,Brinquedos,250.77,674,Barbosa Duarte e Filhos
-189,Voluptatem Harum,Eletrônicos,446.03,18,da Paz Novaes S/A
-190,Harum Expedita,Esportes,417.29,483,Silveira
-191,Ducimus Harum,Eletrônicos,35.81,514,Nogueira
-192,Aspernatur Quibusdam,Eletrônicos,313.81,932,Sales
-193,Accusantium Quasi,Roupas,47.2,941,Costa S.A.
-194,Exercitationem Quae,Livros,80.79,888,Novaes
-195,Ducimus Minus,Esportes,257.68,193,Dias
-196,Reprehenderit A,Esportes,300.82,867,Campos S.A.
-197,Deserunt Occaecati,Saúde,410.57,511,Porto
-198,Deleniti Nemo,Saúde,407.9,590,Gomes Moreira e Filhos
-199,Facere A,Livros,224.82,62,Pinto
-200,Ratione Ex,Bebidas,12.85,833,Carvalho
-201,Sint Placeat,Livros,257.55,360,da Mata
-202,Harum Impedit,Casa,359.47,954,da Rosa Lopes - EI
-203,Fuga Accusantium,Alimentos,161.94,845,Silva Ltda.
-204,Nobis Consectetur,Livros,142.04,292,Monteiro
-205,Maiores Unde,Esportes,391.13,551,Cardoso Souza - ME
-206,Corrupti Sit,Casa,392.13,569,Campos
-207,Modi Vitae,Beleza,30.26,485,Ferreira
-208,Architecto Nesciunt,Casa,273.26,249,Vieira Viana S/A
-209,Iste Culpa,Casa,173.96,867,Barros
-210,Quaerat Eligendi,Alimentos,121.93,606,Cavalcanti - EI
-211,Non Aperiam,Saúde,252.95,234,Fernandes
-212,Cum Eaque,Eletrônicos,127.74,899,Aragão e Filhos
-213,Placeat Molestiae,Roupas,200.88,552,Pires
-214,Consequatur Consequuntur,Beleza,428.62,259,Nascimento
-215,Architecto Officia,Saúde,374.49,105,Rezende
-216,Voluptates Ducimus,Bebidas,122.5,177,Nogueira e Filhos
-217,Facere Nostrum,Alimentos,219.36,986,Novaes
-218,Natus Temporibus,Eletrônicos,43.26,224,Freitas
-219,Aliquid Error,Livros,380.96,281,Sales S/A
-220,Ipsa Quaerat,Brinquedos,22.56,148,Freitas
-221,Aspernatur Officia,Roupas,439.38,357,Oliveira
-222,Amet Necessitatibus,Eletrônicos,213.57,132,Gomes Costa Ltda.
-223,Ipsum Hic,Esportes,48.05,383,Caldeira - ME
-224,Esse Sed,Bebidas,312.77,217,Gomes
-225,Maiores Dignissimos,Casa,479.22,337,Gonçalves
-226,Soluta Voluptatibus,Beleza,230.74,213,da Cunha - ME
-227,Necessitatibus Tempora,Saúde,441.46,974,da Cruz
-228,Provident Dolorum,Bebidas,329.57,47,Moura
-229,Iste Amet,Eletrônicos,448.15,245,Santos Ltda.
-230,Dicta Aut,Saúde,126.4,970,Castro
-231,Dolor Eveniet,Esportes,71.97,261,Alves
-232,Laboriosam Eligendi,Eletrônicos,116.69,199,Farias
-233,Architecto Illum,Bebidas,368.52,938,Vieira
-234,Modi Quibusdam,Livros,185.89,158,Novaes
-235,Ratione Deleniti,Saúde,240.8,742,Pereira
-236,Amet Asperiores,Roupas,273.26,966,Nascimento Gonçalves e Filhos
-237,Temporibus Quia,Alimentos,273.02,989,Melo
-238,Similique Quis,Eletrônicos,438.47,75,Cardoso Fogaça - ME
-239,Quidem Laudantium,Livros,168.84,471,da Cunha
-240,Occaecati Omnis,Brinquedos,31.2,221,Porto
-241,Placeat Quibusdam,Esportes,283.2,927,Moraes
-242,Debitis Veniam,Esportes,321.17,902,da Cunha Campos e Filhos
-243,Necessitatibus Voluptatum,Roupas,104.16,923,Lima
-244,Voluptate Provident,Alimentos,454.49,34,Nascimento
-245,Saepe Officia,Beleza,474.5,700,da Costa - EI
-246,Dolorem Consectetur,Livros,379.3,824,Peixoto
-247,Facilis Ad,Beleza,55.35,955,das Neves - EI
-248,Distinctio Eum,Alimentos,428.97,992,da Paz
-249,Esse Facilis,Brinquedos,421.81,734,da Cruz - ME
-250,Repudiandae Numquam,Brinquedos,42.41,556,Moraes
-251,Eius Ab,Eletrônicos,90.15,14,Fogaça
-252,Nulla Aperiam,Eletrônicos,346.84,405,Melo - ME
-253,Necessitatibus Natus,Beleza,405.42,960,Almeida - ME
-254,Corporis Ducimus,Brinquedos,440.76,459,Monteiro Almeida - EI
-255,Sequi Optio,Casa,52.58,409,Carvalho Nascimento e Filhos
-256,Possimus Placeat,Saúde,372.75,383,Vieira da Rocha S/A
-257,Temporibus Hic,Saúde,427.19,525,Alves - EI
-258,Perspiciatis Ducimus,Roupas,72.34,316,Rezende Mendes e Filhos
-259,Impedit Earum,Bebidas,344.49,452,Castro S/A
-260,Ab Vero,Esportes,18.83,812,da Luz
-261,Numquam Ab,Alimentos,443.81,122,Costa - EI
-262,Molestiae Impedit,Esportes,118.87,40,Fernandes
-263,Vel Enim,Casa,410.5,65,Lopes
-264,Necessitatibus Voluptatum,Brinquedos,171.79,426,Rocha S.A.
-265,Libero Cum,Esportes,354.78,92,Cavalcanti - EI
-266,Maiores Maiores,Brinquedos,124.35,940,Duarte
-267,Quo Quia,Bebidas,267.8,741,Barbosa Ltda.
-268,Nisi Officia,Casa,450.74,68,da Paz
-269,Rerum Laboriosam,Alimentos,211.35,958,Peixoto S/A
-270,Aliquam Aut,Eletrônicos,352.54,189,da Mata
-271,Aliquam Laborum,Esportes,353.33,820,Monteiro
-272,Consectetur Ex,Eletrônicos,133.5,191,Farias Jesus - ME
-273,Quam Porro,Eletrônicos,386.39,793,Carvalho
-274,Officia Impedit,Alimentos,479.7,136,Teixeira
-275,Fugit Enim,Bebidas,390.34,757,Duarte Caldeira - EI
-276,Vero Aperiam,Bebidas,289.45,476,Nascimento
-277,Aperiam Reiciendis,Roupas,222.96,463,Gonçalves
-278,Ipsam Dicta,Saúde,423.62,400,Costela
-279,Eius Molestiae,Bebidas,230.0,827,Barbosa Silveira S/A
-280,Voluptatem Eligendi,Roupas,412.66,549,Nascimento - EI
-281,Voluptate Sit,Eletrônicos,383.33,810,Fernandes
-282,Aspernatur Saepe,Alimentos,225.26,742,Lima
-283,Quasi Officiis,Saúde,395.64,914,da Mata
-284,Quis Nam,Casa,10.44,487,Dias
-285,Expedita Atque,Alimentos,455.83,732,Peixoto
-286,Placeat Occaecati,Bebidas,15.04,310,da Paz Carvalho S.A.
-287,Ea Modi,Esportes,381.42,923,Lopes Ltda.
-288,Corporis Officiis,Roupas,186.32,466,Rocha
-289,Assumenda Culpa,Bebidas,232.89,153,Gomes Gomes Ltda.
-290,Nemo Cupiditate,Livros,492.2,861,Teixeira Caldeira S.A.
-291,Cumque Expedita,Roupas,107.3,752,Sales
-292,Voluptatem Praesentium,Eletrônicos,490.8,362,Nogueira
-293,Repudiandae Deserunt,Esportes,255.86,660,Oliveira Ltda.
-294,Cupiditate Mollitia,Saúde,270.06,815,Castro - EI
-295,Perferendis Officia,Beleza,255.54,216,da Rosa Ltda.
-296,Autem Impedit,Bebidas,346.68,714,Nogueira Araújo e Filhos
-297,Provident Autem,Esportes,115.66,424,Porto da Mota S.A.
-298,Deleniti Optio,Roupas,210.23,979,Moraes Araújo - ME
-299,Accusamus Porro,Livros,343.56,666,da Rocha e Filhos
-300,Commodi Ullam,Bebidas,258.83,958,Martins Ramos e Filhos
-301,Aperiam Nam,Bebidas,148.65,752,das Neves Cardoso Ltda.
-302,Esse Repellat,Bebidas,235.6,294,da Conceição
-303,Natus Sunt,Eletrônicos,422.3,19,Porto Rodrigues S.A.
-304,Odio Error,Brinquedos,272.05,983,Barros
-305,Cupiditate Accusantium,Saúde,430.48,830,Silva S/A
-306,Animi Dolorem,Livros,297.78,306,Fernandes
-307,Facilis Est,Casa,449.22,726,Souza - EI
-308,Officia Similique,Alimentos,341.21,838,Santos Nascimento Ltda.
-309,Dolor Quas,Roupas,237.27,600,Aragão - EI
-310,Beatae Nihil,Casa,162.97,589,Moreira e Filhos
-311,Perferendis Officia,Casa,133.54,339,Jesus
-312,Blanditiis Qui,Saúde,252.67,320,Gonçalves S/A
-313,Minus Impedit,Esportes,283.01,90,Castro
-314,Tempora Quis,Esportes,331.96,516,Monteiro
-315,Veniam Consequatur,Eletrônicos,427.53,99,Viana Correia Ltda.
-316,Temporibus Iure,Esportes,269.73,621,Nunes - EI
-317,Quia Temporibus,Roupas,88.47,19,Peixoto
-318,Et Laudantium,Roupas,131.12,433,Lima
-319,Sit Aliquid,Saúde,92.67,918,da Cunha da Luz - EI
-320,Modi Deserunt,Eletrônicos,30.41,872,Porto S/A
-321,Tempore A,Brinquedos,235.82,48,Pinto da Rosa S.A.
-322,Quasi Esse,Esportes,327.61,91,Nunes
-323,Consectetur Quidem,Eletrônicos,102.31,339,Dias
-324,Amet Mollitia,Casa,391.33,172,Cardoso das Neves - EI
-325,Hic Explicabo,Casa,160.47,615,Oliveira - EI
-326,Qui Illo,Livros,485.34,852,Campos
-327,Ratione Corrupti,Alimentos,482.37,435,Dias
-328,Mollitia Adipisci,Saúde,409.63,143,da Paz
-329,Ullam Impedit,Bebidas,49.53,889,Rodrigues
-330,Porro Cumque,Casa,444.34,483,Rezende - EI
-331,Veritatis Incidunt,Brinquedos,33.21,266,Azevedo
-332,Dolores Doloribus,Livros,352.13,727,da Mota Araújo S.A.
-333,Ratione Quasi,Beleza,145.86,446,Costa
-334,Ipsa Culpa,Roupas,174.19,466,Porto
-335,Nesciunt Sequi,Esportes,11.64,143,das Neves S.A.
-336,Impedit Perferendis,Casa,143.93,120,da Luz
-337,Velit Similique,Livros,83.77,991,da Cunha da Mota S/A
-338,Ipsa Mollitia,Eletrônicos,352.64,810,Alves
-339,Necessitatibus Dolorum,Livros,89.55,287,Pinto Ramos e Filhos
-340,Repellendus Vitae,Alimentos,331.72,862,Cardoso Ltda.
-341,Excepturi Accusantium,Esportes,14.43,97,Vieira
-342,Ut Molestias,Saúde,387.73,280,Duarte
-343,Voluptas Iste,Alimentos,339.43,160,da Cunha
-344,Reprehenderit Numquam,Beleza,361.6,376,Sales
-345,Maxime Quas,Casa,489.78,187,Farias
-346,Neque Provident,Brinquedos,288.93,624,Pinto S.A.
-347,Debitis Esse,Saúde,283.89,902,Oliveira Ltda.
-348,Quos Molestiae,Brinquedos,128.49,128,Moraes
-349,Aperiam Voluptatum,Livros,158.1,801,Duarte S.A.
-350,Totam Consequuntur,Alimentos,77.78,166,da Mata
-351,Et Quam,Bebidas,326.11,229,Melo da Cruz S/A
-352,Eaque Incidunt,Livros,485.31,365,Jesus
-353,Consequatur Eius,Casa,358.72,940,Castro
-354,Cupiditate Consequatur,Roupas,488.36,605,Rezende Monteiro S/A
-355,Adipisci Voluptates,Casa,157.67,178,da Mota
-356,Ea A,Roupas,433.02,313,Souza S/A
-357,Fugiat Vitae,Brinquedos,70.84,105,Souza S.A.
-358,Harum Pariatur,Casa,439.94,961,Silveira
-359,Aut Eveniet,Brinquedos,61.99,977,Duarte Castro Ltda.
-360,Dolores Odio,Alimentos,353.66,977,Costela Jesus - ME
-361,Quo Dolorem,Bebidas,139.02,846,Costa - ME
-362,Voluptas Autem,Eletrônicos,224.0,565,Costa - ME
-363,Repellat Tempore,Bebidas,147.76,826,Dias S.A.
-364,Repellendus Id,Casa,195.87,116,Mendes - EI
-365,Quos Quaerat,Eletrônicos,288.95,374,da Conceição
-366,Commodi Nam,Beleza,147.21,909,Porto e Filhos
-367,Alias Laboriosam,Brinquedos,137.94,817,da Costa
-368,Illo Atque,Esportes,148.54,890,Aragão - ME
-369,Natus Consequatur,Alimentos,293.45,653,Barbosa
-370,Voluptatibus Illo,Alimentos,247.66,325,Souza S.A.
-371,Repellat Eveniet,Eletrônicos,233.88,221,Costela - ME
-372,Eos Officiis,Saúde,270.95,222,Moura Lima Ltda.
-373,Rerum Id,Casa,424.05,411,das Neves
-374,Voluptatem Maiores,Alimentos,403.91,288,Ribeiro
-375,Fugiat Dolor,Esportes,370.65,300,Farias e Filhos
-376,Vel Ipsa,Livros,453.88,980,Cunha Ltda.
-377,Qui Deleniti,Livros,63.41,478,Peixoto S.A.
-378,Est Ad,Saúde,163.75,857,Teixeira - EI
-379,Et Delectus,Livros,213.78,298,Cunha Moraes S.A.
-380,Veniam Autem,Saúde,297.77,688,Castro
-381,Eum Sequi,Casa,138.53,911,Gomes
-382,Saepe Possimus,Casa,245.83,105,Porto da Rocha S/A
-383,Harum Aspernatur,Saúde,458.82,921,Gonçalves - ME
-384,Vero Accusantium,Brinquedos,191.45,629,Correia
-385,Veritatis Vero,Brinquedos,10.87,361,Cunha
-386,Fugit Officia,Brinquedos,294.78,785,da Cruz Rocha Ltda.
-387,Delectus Dolore,Alimentos,101.6,212,Moura da Conceição S/A
-388,Quos Placeat,Alimentos,336.94,6,Aragão S/A
-389,Eligendi Suscipit,Esportes,464.71,214,Ferreira
-390,Error Laudantium,Alimentos,180.3,973,da Costa
-391,Nihil Eaque,Esportes,119.0,589,Barbosa Lima - EI
-392,Harum Mollitia,Casa,324.95,141,Cardoso
-393,Aperiam Quos,Beleza,287.88,376,Lima Cavalcanti S/A
-394,Ipsa Ab,Eletrônicos,101.19,250,Rezende S.A.
-395,Blanditiis Perferendis,Casa,135.45,983,da Cunha
-396,Perspiciatis Inventore,Alimentos,105.9,96,da Conceição
-397,Repudiandae Consectetur,Saúde,358.88,138,Silveira
-398,Perspiciatis Eveniet,Esportes,241.15,377,Lima
-399,Nihil Atque,Livros,111.49,440,Rocha
-400,Possimus Quam,Casa,313.22,514,Nogueira
-401,Eveniet Deserunt,Eletrônicos,436.23,859,Freitas
-402,Aliquam Corrupti,Saúde,11.17,437,Moraes Souza S.A.
-403,Dolore Ducimus,Beleza,169.01,600,Ribeiro Ltda.
-404,Explicabo Tenetur,Eletrônicos,334.83,898,Oliveira Jesus - ME
-405,Excepturi Numquam,Livros,471.74,64,Oliveira Cardoso e Filhos
-406,Eos Voluptatibus,Eletrônicos,18.49,834,Caldeira
-407,Quas Necessitatibus,Brinquedos,51.43,66,da Costa S.A.
-408,Veritatis Magnam,Bebidas,346.24,857,Moraes
-409,Vitae Consequatur,Bebidas,210.98,883,Costa Peixoto e Filhos
-410,Exercitationem Harum,Saúde,262.55,969,Ferreira - ME
-411,Ullam Quisquam,Roupas,133.88,568,Cavalcanti
-412,Tenetur Repellendus,Alimentos,372.58,627,Fogaça S.A.
-413,Fugit Sed,Alimentos,165.61,754,Correia
-414,Ipsa Voluptate,Alimentos,440.49,453,Rezende - ME
-415,Distinctio Atque,Alimentos,100.56,132,da Mata
-416,Recusandae Incidunt,Roupas,147.5,32,das Neves
-417,Minima Excepturi,Livros,434.7,512,Rodrigues S.A.
-418,Iste Blanditiis,Eletrônicos,372.53,604,da Luz S.A.
-419,Saepe Eveniet,Beleza,311.66,498,da Mata
-420,Hic Omnis,Roupas,96.99,894,Monteiro
-421,Harum Alias,Alimentos,326.51,829,Novaes Nogueira - ME
-422,Hic Ducimus,Casa,247.99,116,Gonçalves da Paz S.A.
-423,Temporibus Architecto,Esportes,346.02,847,Pereira Ltda.
-424,Quis Nam,Livros,67.48,103,Farias
-425,Enim Velit,Brinquedos,330.67,774,Farias - EI
-426,Deleniti Repellendus,Esportes,46.39,185,Melo Teixeira e Filhos
-427,Beatae Repellat,Bebidas,167.62,981,Viana - ME
-428,Quasi Consectetur,Saúde,170.87,733,Porto
-429,Illum Vel,Brinquedos,127.13,925,Melo
-430,Itaque Exercitationem,Alimentos,184.8,469,da Conceição
-431,Doloremque Doloribus,Esportes,209.91,219,Cavalcanti - EI
-432,Saepe Vitae,Bebidas,379.38,145,Azevedo das Neves S/A
-433,Nobis Eum,Beleza,432.84,593,Cavalcanti Almeida S/A
-434,Debitis Laborum,Esportes,65.04,436,Viana da Costa e Filhos
-435,Commodi Eaque,Alimentos,413.6,930,Farias
-436,Fugit Quae,Alimentos,125.71,521,Santos - EI
-437,Veritatis Ea,Livros,303.87,15,Cardoso Peixoto e Filhos
-438,Illo Et,Eletrônicos,328.76,512,da Mata
-439,Reiciendis Voluptatem,Casa,274.15,943,Vieira Gomes S/A
-440,Numquam Animi,Alimentos,15.54,413,Monteiro
-441,Placeat Illum,Roupas,259.56,226,Porto - EI
-442,Mollitia Quia,Brinquedos,15.17,310,Barbosa Rocha Ltda.
-443,Ducimus Asperiores,Saúde,442.11,454,Barros Ltda.
-444,Cumque Alias,Saúde,271.99,673,Nascimento
-445,Iure Odio,Eletrônicos,497.4,373,Porto e Filhos
-446,Consectetur Sed,Saúde,236.5,884,Barros
-447,Minima Nostrum,Bebidas,311.88,263,Viana
-448,Cupiditate Expedita,Beleza,136.65,939,Santos
-449,Tenetur Aspernatur,Esportes,282.34,66,Nunes
-450,Deserunt Molestias,Roupas,331.09,648,Costela
-451,Cumque Voluptate,Eletrônicos,163.86,982,Araújo
-452,Itaque Mollitia,Saúde,19.49,327,Porto Campos - EI
-453,Ullam Rem,Esportes,299.03,9,Ribeiro
-454,Consequatur Reiciendis,Eletrônicos,207.07,596,da Rosa Ltda.
-455,Debitis Ab,Eletrônicos,231.3,487,Ferreira
-456,Aliquid Quis,Saúde,448.11,247,Azevedo da Mota e Filhos
-457,Fuga Molestiae,Eletrônicos,133.56,285,Gonçalves - ME
-458,Omnis Illo,Eletrônicos,165.79,74,Caldeira da Conceição S.A.
-459,Excepturi Quidem,Casa,338.58,266,Oliveira das Neves e Filhos
-460,Error Dolore,Esportes,204.97,72,Araújo S.A.
-461,Omnis Eveniet,Casa,264.17,357,Vieira da Luz Ltda.
-462,Cum Nisi,Casa,436.65,676,Correia S.A.
-463,Temporibus Quo,Beleza,10.03,878,Santos Ltda.
-464,Exercitationem Placeat,Bebidas,369.8,573,Novaes
-465,Quae Animi,Saúde,304.8,656,da Luz
-466,Illo Incidunt,Esportes,195.73,117,Cunha Campos S/A
-467,Quos Laborum,Livros,216.79,406,Araújo Peixoto - ME
-468,Doloribus Voluptates,Eletrônicos,64.32,418,Nunes Ltda.
-469,Quaerat Iusto,Bebidas,81.21,147,Jesus Ltda.
-470,Est Dolorum,Beleza,486.97,636,Mendes da Cunha - ME
-471,Ducimus Quae,Bebidas,64.17,289,Araújo - ME
-472,Numquam Officia,Eletrônicos,371.7,479,Barbosa Carvalho - EI
-473,Cum Autem,Esportes,447.56,163,Monteiro
-474,Esse Maxime,Casa,80.75,834,da Luz
-475,Odit Officiis,Livros,327.51,208,Moreira
-476,Laboriosam Rerum,Casa,412.86,307,Viana e Filhos
-477,Maiores Labore,Esportes,240.35,345,Rocha
-478,Iste Quibusdam,Esportes,440.5,621,Viana
-479,Explicabo Architecto,Alimentos,317.15,293,Jesus S/A
-480,Nostrum Soluta,Brinquedos,478.59,792,Moreira
-481,Quam Amet,Esportes,385.02,511,Teixeira
-482,Ducimus Libero,Casa,127.27,235,Carvalho da Costa e Filhos
-483,Dolorum Hic,Alimentos,373.44,821,Peixoto Nogueira - ME
-484,Illo Magni,Eletrônicos,280.98,209,Dias Freitas e Filhos
-485,Reprehenderit Ad,Livros,104.73,296,Pires
-486,Fuga Repellat,Casa,370.84,230,Moreira
-487,Qui Vitae,Beleza,137.97,391,Freitas Silveira - EI
-488,Aut Et,Alimentos,185.24,203,da Paz e Filhos
-489,Reprehenderit Repudiandae,Livros,491.68,564,Costela Cunha - EI
-490,Adipisci Repellat,Bebidas,236.79,597,Lima Ltda.
-491,Possimus Labore,Roupas,134.55,356,Ferreira Melo S/A
-492,Excepturi Unde,Bebidas,498.45,924,Peixoto
-493,Eaque Dignissimos,Roupas,249.32,780,Moreira Ltda.
-494,Quaerat Iste,Beleza,445.48,732,Campos
-495,Sunt Eum,Eletrônicos,120.52,130,Rezende e Filhos
-496,Amet At,Saúde,362.23,204,Rezende S.A.
-497,Officiis Cupiditate,Saúde,456.42,553,Monteiro
-498,Tenetur Expedita,Casa,152.7,603,Vieira S.A.
-499,Eum Reiciendis,Roupas,268.75,36,Costa
-500,Accusantium Pariatur,Roupas,402.47,763,Rocha - EI
+1,Repellat A,Eletrônicos,414.74,216,Souza - ME
+2,Ratione At,Bebidas,481.1,103,Dias
+3,Eveniet Reiciendis,Bebidas,175.92,734,da Rocha
+4,Porro Minus,Roupas,386.76,316,Monteiro S/A
+5,Eaque Odio,Beleza,68.77,156,Correia
+6,Soluta Suscipit,Livros,408.05,390,Ribeiro
+7,Corporis Provident,Beleza,125.74,85,Farias
+8,Modi Aliquid,Eletrônicos,404.38,152,da Cunha
+9,Suscipit Nostrum,Beleza,362.76,387,Pereira
+10,Perferendis Expedita,Livros,478.01,817,Monteiro Ltda.
+11,Numquam Voluptatibus,Alimentos,53.62,806,Moraes Nunes - ME
+12,Ad Nemo,Brinquedos,251.04,150,da Luz
+13,Assumenda Architecto,Bebidas,55.6,579,da Luz - EI
+14,Explicabo Maxime,Roupas,413.18,920,Melo
+15,Ducimus Qui,Eletrônicos,197.93,315,Alves - EI
+16,Rem Magnam,Roupas,408.59,48,Rodrigues Mendes S.A.
+17,Corrupti Ipsa,Casa,359.84,195,Duarte
+18,Cumque Repellat,Esportes,247.38,173,Jesus da Luz - EI
+19,Nulla Quisquam,Beleza,182.96,644,da Mata
+20,Rerum Dignissimos,Eletrônicos,54.38,284,Caldeira
+21,Eaque Culpa,Casa,58.77,435,Cardoso
+22,Sed Rerum,Esportes,277.4,332,Pires
+23,Quod Quas,Livros,350.72,52,Carvalho Ltda.
+24,Repellendus Animi,Livros,229.89,82,Carvalho
+25,Sequi Repellat,Esportes,179.18,877,Rezende
+26,Animi Beatae,Brinquedos,70.99,690,da Cruz da Rocha S.A.
+27,Deserunt Dolorem,Beleza,212.94,252,Costa
+28,Error Iste,Alimentos,39.48,410,Gomes
+29,Beatae Vel,Livros,415.69,121,Ribeiro
+30,Ipsa Reiciendis,Brinquedos,466.58,954,da Mota da Cunha - EI
+31,Nihil Inventore,Alimentos,370.27,131,Farias
+32,Mollitia Hic,Casa,377.09,148,Monteiro Ltda.
+33,Itaque Sit,Beleza,322.04,712,Almeida
+34,Saepe Est,Beleza,126.25,664,Mendes Campos e Filhos
+35,Asperiores Nesciunt,Eletrônicos,195.13,179,Pereira
+36,Fugiat Cumque,Casa,131.6,269,Rocha Fernandes S/A
+37,Nobis Facilis,Brinquedos,21.06,86,Rezende Mendes S/A
+38,Labore Saepe,Beleza,195.98,381,da Mota
+39,Harum Nobis,Esportes,301.01,966,Rezende Ramos S.A.
+40,Saepe Qui,Brinquedos,24.51,549,Sales S/A
+41,Perferendis Qui,Casa,75.6,80,Rodrigues
+42,Eius Nostrum,Casa,228.94,191,Moura S.A.
+43,Error Itaque,Livros,251.91,144,Ramos
+44,Dignissimos In,Saúde,429.64,11,Campos
+45,Eligendi Nemo,Brinquedos,367.71,865,Silveira
+46,Magnam Occaecati,Bebidas,391.86,83,Pinto da Mata Ltda.
+47,Suscipit Unde,Casa,250.76,103,da Cunha
+48,Ut Odit,Bebidas,230.94,155,Monteiro Porto - EI
+49,Facilis Rerum,Esportes,297.11,319,da Cruz
+50,Esse Expedita,Livros,355.18,421,Barbosa das Neves S.A.
+51,Deleniti Animi,Saúde,374.01,184,da Cunha Araújo S/A
+52,Velit Laudantium,Alimentos,45.56,963,Santos Ltda.
+53,Facilis Neque,Livros,434.28,773,Duarte - EI
+54,Animi Labore,Beleza,127.49,204,das Neves da Luz S.A.
+55,Ea Vitae,Beleza,358.39,414,Rodrigues
+56,Fuga Aliquam,Livros,35.03,469,Cardoso Porto - ME
+57,Dolores Ducimus,Bebidas,25.59,297,Souza S/A
+58,Alias Nulla,Roupas,182.8,223,Peixoto
+59,Non Inventore,Alimentos,33.52,192,Sales
+60,Pariatur Adipisci,Eletrônicos,383.6,889,Ferreira
+61,Nemo Quos,Brinquedos,167.72,641,da Luz Melo Ltda.
+62,Vel In,Brinquedos,180.89,679,Ferreira
+63,Sit Cumque,Casa,362.28,410,Silveira Cunha - EI
+64,Quia Facilis,Beleza,68.35,665,da Paz
+65,Vitae Veniam,Alimentos,241.25,668,da Rocha Ltda.
+66,Necessitatibus Consectetur,Esportes,394.84,140,Sales
+67,Non Molestiae,Livros,23.76,14,Mendes
+68,Dolor Repellat,Casa,68.89,914,Correia S.A.
+69,Velit Quasi,Bebidas,156.26,302,Costela - ME
+70,Minus Saepe,Casa,412.84,387,Fernandes e Filhos
+71,Perferendis Quo,Esportes,239.71,47,da Cunha
+72,Itaque Esse,Saúde,238.52,855,Sales
+73,Facilis Recusandae,Alimentos,368.45,838,Melo S.A.
+74,Modi Quisquam,Bebidas,229.8,735,Ferreira Lima e Filhos
+75,Eum Voluptas,Casa,243.1,96,Araújo
+76,Consequuntur Nihil,Alimentos,280.88,210,Moura Nunes - EI
+77,Maiores Neque,Esportes,106.06,793,da Rosa Moura - ME
+78,Voluptatum Totam,Roupas,421.48,589,Viana Cavalcanti S/A
+79,In Iste,Roupas,146.09,900,Ferreira - EI
+80,Quis Necessitatibus,Roupas,121.9,927,Jesus Silva e Filhos
+81,Neque Perspiciatis,Casa,330.15,1,Barbosa
+82,Quibusdam Impedit,Roupas,466.79,5,Freitas da Mata S/A
+83,Sequi Officia,Bebidas,150.13,458,Lima Ramos Ltda.
+84,Fuga Deserunt,Eletrônicos,124.63,633,Sales S.A.
+85,Dolorem Labore,Alimentos,143.88,200,Dias
+86,Autem Occaecati,Livros,279.53,710,Sales
+87,Tenetur Debitis,Esportes,274.54,720,Alves - ME
+88,Dignissimos Sed,Saúde,466.17,14,Duarte Peixoto Ltda.
+89,Ut Laboriosam,Livros,351.81,113,Ferreira S/A
+90,Ipsa Incidunt,Beleza,367.36,561,da Rosa
+91,Itaque Ipsum,Beleza,360.16,660,Peixoto Rocha e Filhos
+92,Molestias Dolor,Esportes,299.39,669,Pires
+93,Ea Sequi,Saúde,381.99,837,da Mota
+94,Ut Dicta,Livros,452.85,592,Porto - EI
+95,Porro Exercitationem,Beleza,383.98,219,Barbosa - ME
+96,Aut Laborum,Esportes,440.02,569,Oliveira Teixeira e Filhos
+97,Alias Quo,Alimentos,172.02,480,Santos Mendes - EI
+98,Autem Debitis,Roupas,40.69,91,das Neves
+99,Eos Temporibus,Roupas,369.66,823,Oliveira Vieira e Filhos
+100,Est Facere,Casa,309.68,875,Oliveira S/A
+101,Necessitatibus Necessitatibus,Alimentos,429.87,794,Barbosa S/A
+102,Nam Repellendus,Alimentos,456.13,758,Castro
+103,Iure Provident,Roupas,494.8,237,Novaes Cardoso - EI
+104,Hic Recusandae,Bebidas,374.29,924,Moura Fogaça e Filhos
+105,Et Cum,Brinquedos,27.69,696,Porto S/A
+106,Fuga Quam,Alimentos,285.57,694,Castro
+107,Dolorum Hic,Roupas,175.44,839,Barros Barbosa Ltda.
+108,Dicta Adipisci,Livros,302.28,238,Fogaça
+109,Veritatis Molestiae,Livros,406.47,168,Rodrigues
+110,Eum Sapiente,Roupas,76.67,132,Alves
+111,Hic Quam,Esportes,431.01,162,Correia
+112,Assumenda Sit,Roupas,30.76,67,Mendes Nascimento - ME
+113,Ipsam Nam,Beleza,98.26,381,Nascimento - EI
+114,Architecto Corrupti,Eletrônicos,444.25,883,Ribeiro - ME
+115,Ipsam Voluptate,Eletrônicos,276.34,760,Ramos S/A
+116,Nostrum Ea,Livros,437.96,926,Campos Caldeira Ltda.
+117,Distinctio Voluptatibus,Esportes,354.58,981,Pinto
+118,Aliquam Repellendus,Alimentos,268.21,23,Rodrigues Peixoto Ltda.
+119,Natus Autem,Livros,65.96,212,Freitas
+120,Molestiae Quo,Brinquedos,472.73,320,Correia Melo S/A
+121,Velit Vero,Brinquedos,290.98,709,Nogueira Moura e Filhos
+122,Atque Repudiandae,Eletrônicos,159.97,501,Silveira
+123,Facilis Ipsa,Esportes,465.21,862,Alves
+124,Dolorem Cum,Alimentos,15.64,336,Cardoso - EI
+125,Ut Voluptas,Esportes,436.28,443,Pires
+126,Quaerat Unde,Saúde,497.03,659,Dias
+127,Iure At,Beleza,258.13,449,Moreira Ltda.
+128,Animi Voluptate,Roupas,107.91,132,Vieira Moraes e Filhos
+129,Inventore Itaque,Bebidas,363.35,537,Costa
+130,Minus Expedita,Esportes,182.41,190,Barros Oliveira - ME
+131,Consequatur Voluptates,Roupas,286.49,943,Azevedo Pinto Ltda.
+132,Optio Ab,Livros,350.42,272,Martins S.A.
+133,Cumque Architecto,Esportes,205.68,468,Silveira Castro S/A
+134,Quibusdam Sed,Saúde,45.91,296,Ferreira Ltda.
+135,Vitae Quisquam,Beleza,253.23,435,Correia
+136,Reprehenderit Nesciunt,Brinquedos,434.76,8,Barros Ltda.
+137,Eos Id,Saúde,166.72,403,Campos Cardoso - ME
+138,Possimus Quidem,Brinquedos,462.97,351,Costa
+139,Minima Modi,Casa,404.43,543,Ferreira
+140,Dolor Ducimus,Esportes,264.32,325,Freitas
+141,Fugit Laudantium,Roupas,69.91,184,Martins Ltda.
+142,Animi Sint,Brinquedos,99.2,534,da Cruz - ME
+143,Officiis Perspiciatis,Livros,248.08,808,Araújo
+144,Laboriosam Exercitationem,Casa,353.94,799,da Mata
+145,Amet Quasi,Saúde,444.35,824,Castro - EI
+146,Cum Recusandae,Saúde,416.45,104,Martins
+147,Repudiandae Sequi,Livros,42.53,964,Ferreira Carvalho S/A
+148,A Eius,Saúde,313.36,28,da Rocha Freitas S/A
+149,Deleniti Quo,Brinquedos,353.22,152,Alves S/A
+150,Hic Enim,Eletrônicos,337.43,261,Sales
+151,Doloribus Distinctio,Casa,216.34,917,da Conceição - EI
+152,Corporis Eius,Alimentos,165.36,977,das Neves e Filhos
+153,Nam Laborum,Eletrônicos,135.06,699,Gomes
+154,Asperiores Ab,Roupas,58.44,527,Nunes
+155,Eos Temporibus,Bebidas,205.84,199,Caldeira Campos S/A
+156,Distinctio Repellat,Eletrônicos,300.28,827,Silva
+157,Fugit Deserunt,Saúde,201.75,635,Teixeira S.A.
+158,Temporibus Iusto,Livros,284.71,717,Teixeira
+159,Laboriosam Unde,Esportes,467.63,776,Correia e Filhos
+160,Quibusdam Possimus,Roupas,387.78,162,da Conceição
+161,Corporis Quis,Saúde,447.84,941,Melo Campos Ltda.
+162,Beatae Quod,Saúde,471.38,222,Cardoso S.A.
+163,Quibusdam Eaque,Esportes,53.16,751,Barros Ltda.
+164,Qui Porro,Bebidas,381.32,563,Santos - ME
+165,Modi At,Casa,469.54,713,Moura - ME
+166,In Cum,Saúde,193.77,513,Mendes
+167,Amet Fugit,Beleza,101.7,917,Silva
+168,Voluptatem Laudantium,Esportes,289.01,192,Ramos Nunes Ltda.
+169,Ut Minus,Saúde,163.1,403,Martins
+170,Impedit Optio,Livros,202.96,753,Duarte S.A.
+171,Dolorum Odio,Bebidas,162.45,266,Rodrigues - ME
+172,Ut Blanditiis,Livros,147.35,150,Costa
+173,Voluptate Iure,Saúde,34.12,814,Silveira
+174,Tenetur Et,Livros,284.34,348,Silva
+175,Nam Et,Bebidas,314.08,469,Silva - EI
+176,Facilis Quos,Beleza,336.09,900,Lopes
+177,Nemo Eaque,Livros,336.82,347,das Neves
+178,Tenetur Officiis,Casa,121.97,535,Peixoto
+179,Illum Blanditiis,Casa,143.78,717,Novaes
+180,Ea Iure,Esportes,473.33,882,Cavalcanti
+181,Sint Aperiam,Alimentos,16.95,44,Melo
+182,Minima Facere,Casa,187.5,757,Jesus Cardoso Ltda.
+183,A Minima,Beleza,347.12,606,Peixoto
+184,Distinctio Repudiandae,Eletrônicos,226.58,816,Viana - EI
+185,Culpa Exercitationem,Eletrônicos,124.29,554,Martins
+186,Vero Voluptates,Bebidas,446.83,867,Castro
+187,Labore Error,Beleza,213.64,200,Ramos
+188,Eum Impedit,Brinquedos,280.05,47,Costela - EI
+189,Placeat Numquam,Saúde,56.86,94,Rocha
+190,Amet Quos,Esportes,428.99,132,da Mata da Cruz Ltda.
+191,Omnis Necessitatibus,Eletrônicos,313.1,879,Melo
+192,Occaecati Eius,Roupas,32.41,352,Freitas
+193,Sapiente Perferendis,Bebidas,170.6,128,Rezende e Filhos
+194,Aliquam Aspernatur,Saúde,204.13,229,Pinto - EI
+195,Voluptatum Asperiores,Roupas,420.71,173,Alves
+196,Quasi Nesciunt,Bebidas,320.5,754,Rezende Ribeiro Ltda.
+197,Hic Ab,Casa,113.17,428,Nascimento - EI
+198,Ipsum Doloremque,Saúde,273.53,289,da Cruz
+199,Earum Enim,Esportes,94.27,298,Peixoto Pinto S.A.
+200,Tenetur Veritatis,Livros,23.58,814,Porto
+201,Dolore Error,Esportes,493.91,868,Martins da Cunha e Filhos
+202,Voluptatibus Minima,Casa,435.29,710,Rodrigues
+203,Et Excepturi,Eletrônicos,56.93,442,Lima
+204,Magnam Itaque,Esportes,132.16,69,Pinto Cunha - ME
+205,Nisi Maxime,Beleza,260.96,795,Correia
+206,Animi Impedit,Livros,417.94,245,Barros
+207,Iusto Facere,Livros,47.72,147,Novaes
+208,Vitae Facere,Brinquedos,353.92,968,Santos Gomes e Filhos
+209,Dolorum Deleniti,Beleza,471.93,10,Porto S/A
+210,Veniam Voluptatum,Roupas,452.79,143,Ramos e Filhos
+211,Ullam A,Bebidas,478.09,740,Rocha S/A
+212,Praesentium Fuga,Roupas,120.86,507,Nascimento
+213,Cupiditate Tempore,Livros,204.38,595,Viana da Rosa S.A.
+214,Incidunt Aspernatur,Livros,423.38,198,Silva
+215,Amet Beatae,Alimentos,399.5,143,Rezende Azevedo S.A.
+216,Placeat Repellendus,Eletrônicos,258.83,919,da Rocha S/A
+217,Tempore Ratione,Eletrônicos,103.87,983,Pires Ltda.
+218,Nihil Adipisci,Beleza,281.96,98,Cardoso Rocha Ltda.
+219,Eius Quisquam,Beleza,73.68,830,Almeida Aragão S.A.
+220,Ipsam Aperiam,Beleza,416.72,771,Moura
+221,Ducimus Delectus,Bebidas,158.65,505,Souza
+222,Ipsam Praesentium,Casa,119.55,947,Monteiro Moura - EI
+223,Ab Consequuntur,Brinquedos,336.48,540,da Mota - EI
+224,Amet Alias,Alimentos,372.55,512,Porto
+225,Quas Illo,Eletrônicos,211.69,742,Souza - ME
+226,Hic Non,Livros,194.59,92,Campos Rezende - ME
+227,Architecto Voluptatum,Brinquedos,29.01,882,Nogueira Jesus - EI
+228,Delectus Debitis,Casa,389.61,551,Silveira
+229,Eum Minima,Brinquedos,277.36,711,Lopes
+230,Eveniet Quam,Bebidas,119.44,111,Jesus
+231,Repellendus Ut,Bebidas,412.31,725,Barros
+232,Quia Voluptates,Roupas,188.67,113,Mendes e Filhos
+233,Totam Necessitatibus,Beleza,254.72,90,da Conceição e Filhos
+234,Provident Accusantium,Alimentos,392.34,718,Oliveira - ME
+235,Sint Dolores,Beleza,430.8,952,Teixeira
+236,Deserunt Voluptatum,Livros,14.27,584,Nascimento
+237,Recusandae Odit,Bebidas,476.68,356,Gomes
+238,Exercitationem Repudiandae,Eletrônicos,331.05,624,Santos
+239,Eaque Aut,Beleza,163.33,952,Cardoso
+240,Similique Dignissimos,Roupas,299.2,678,da Mota Ltda.
+241,Quae Tenetur,Bebidas,190.11,100,Costa Gomes - EI
+242,Eum Vitae,Beleza,313.84,659,Azevedo - EI
+243,Explicabo Sit,Bebidas,37.43,282,Oliveira
+244,Dolores Quis,Casa,424.59,15,Lopes
+245,Animi Ipsa,Casa,400.78,54,Barros Cardoso - ME
+246,Sed Velit,Saúde,492.01,509,Barbosa Cavalcanti e Filhos
+247,Tempora Labore,Bebidas,186.97,453,Pereira S.A.
+248,Magnam Sequi,Bebidas,163.72,620,Novaes S.A.
+249,Sed Neque,Brinquedos,255.49,842,Teixeira
+250,Id Recusandae,Livros,375.88,310,Gomes
+251,Officia Magni,Brinquedos,484.45,346,Mendes - EI
+252,Optio Voluptates,Brinquedos,20.58,925,Viana Monteiro S.A.
+253,Quae Porro,Esportes,10.71,22,da Cunha
+254,Libero Incidunt,Beleza,412.58,164,Gonçalves - ME
+255,Autem Error,Brinquedos,42.33,813,Moreira - EI
+256,Repudiandae Soluta,Livros,459.68,425,Lima
+257,Minima Vero,Alimentos,242.54,471,Moreira
+258,Sequi Eius,Casa,136.32,26,Pereira S.A.
+259,Tenetur Itaque,Bebidas,250.07,845,Duarte
+260,Facilis Assumenda,Casa,26.45,885,Dias Rodrigues Ltda.
+261,Nostrum Suscipit,Livros,409.34,611,Barbosa - ME
+262,Quo Deserunt,Livros,33.84,341,Aragão - ME
+263,Impedit Ipsum,Alimentos,435.73,984,da Rocha
+264,Placeat Fuga,Saúde,402.36,833,Azevedo Ltda.
+265,Cum Labore,Eletrônicos,387.15,281,Nogueira
+266,Nesciunt A,Livros,388.1,258,Castro
+267,Minima Doloribus,Roupas,444.92,72,das Neves e Filhos
+268,Id Voluptatibus,Brinquedos,461.7,931,Caldeira S.A.
+269,Inventore Dolore,Bebidas,332.4,308,Cardoso - ME
+270,Suscipit Nihil,Bebidas,281.4,925,Costela
+271,Eos Explicabo,Alimentos,228.87,22,Mendes Jesus Ltda.
+272,Ut Sit,Beleza,341.41,171,Costa Barros - EI
+273,Dolor Repudiandae,Brinquedos,434.35,231,Sales Fogaça S/A
+274,Sequi Ad,Livros,343.94,575,Ferreira Costa Ltda.
+275,Voluptatibus Necessitatibus,Saúde,70.19,6,Cardoso
+276,Ducimus Dicta,Brinquedos,442.2,280,Pinto
+277,Dolorem Esse,Brinquedos,151.52,760,da Mota - EI
+278,Minima Ipsa,Bebidas,249.99,964,Costela e Filhos
+279,Possimus Voluptatem,Esportes,187.16,302,Souza da Costa Ltda.
+280,Eum Perspiciatis,Brinquedos,411.23,675,Cavalcanti S.A.
+281,Voluptatum Natus,Bebidas,329.74,941,Ramos
+282,Laborum Aperiam,Alimentos,153.1,37,Barbosa
+283,Mollitia Quas,Bebidas,416.44,368,Araújo
+284,Provident Ut,Saúde,377.26,499,Cardoso
+285,Praesentium Quas,Alimentos,203.92,524,Dias Martins Ltda.
+286,Nostrum Maiores,Alimentos,366.85,893,Dias - EI
+287,Impedit Adipisci,Beleza,244.94,3,Barros Souza S.A.
+288,Numquam Ratione,Brinquedos,313.46,421,Silva S/A
+289,Aut Consectetur,Saúde,126.59,453,Costela
+290,Ab Officiis,Bebidas,401.46,648,Almeida S.A.
+291,Ut Accusantium,Esportes,24.55,682,Moreira
+292,Dignissimos Quae,Casa,104.04,786,da Luz Alves Ltda.
+293,Dolorum Labore,Bebidas,461.81,138,Porto
+294,Beatae Qui,Brinquedos,319.33,172,Monteiro
+295,Molestiae Reprehenderit,Alimentos,128.93,732,Barbosa Martins S/A
+296,Occaecati Officiis,Alimentos,218.21,473,da Conceição S/A
+297,Repudiandae Odio,Eletrônicos,395.37,139,da Paz S.A.
+298,Pariatur Vitae,Brinquedos,86.31,740,Silveira Lopes S.A.
+299,Quasi Nihil,Alimentos,364.25,311,Pereira - EI
+300,Animi Odit,Casa,383.47,767,Freitas
+301,Id Maiores,Saúde,94.28,205,Lima Cardoso S.A.
+302,Molestias Vel,Livros,222.68,274,Melo Cardoso S.A.
+303,Nemo Rerum,Casa,120.77,32,Castro S/A
+304,Consectetur Facere,Alimentos,207.76,89,Fernandes
+305,Iure Doloremque,Roupas,164.28,446,Carvalho S/A
+306,Modi Corrupti,Roupas,300.72,895,Cavalcanti
+307,Sunt Laboriosam,Esportes,228.29,410,Sales S.A.
+308,Odit Ad,Saúde,184.47,479,Duarte e Filhos
+309,Magni Numquam,Casa,367.78,196,Nascimento e Filhos
+310,Distinctio Doloribus,Alimentos,178.34,610,Pires Barros Ltda.
+311,Cum Sed,Esportes,351.02,94,Almeida S/A
+312,Molestiae Quo,Beleza,242.53,399,da Conceição Araújo S/A
+313,Deserunt Sequi,Alimentos,166.19,983,Rezende
+314,Dolore Odit,Brinquedos,57.42,745,Rodrigues
+315,Aperiam Voluptatum,Eletrônicos,69.14,907,Viana
+316,Impedit Fugit,Esportes,105.39,405,Pinto - ME
+317,Eveniet Atque,Roupas,449.45,629,Pinto Campos e Filhos
+318,Itaque Autem,Saúde,350.69,187,Aragão Ribeiro - EI
+319,Officia Soluta,Bebidas,413.13,352,da Conceição Caldeira Ltda.
+320,Accusantium Ut,Eletrônicos,330.56,729,Ferreira e Filhos
+321,Earum Ab,Brinquedos,318.04,883,Campos S.A.
+322,Sint Repellat,Brinquedos,275.0,873,da Luz
+323,Fuga Ab,Brinquedos,497.25,386,Rocha
+324,Voluptatibus Ad,Beleza,377.39,928,Teixeira
+325,Non Optio,Livros,452.47,373,da Cunha
+326,Fugiat Voluptas,Roupas,266.5,731,Cardoso
+327,A Rerum,Esportes,278.63,697,Pereira
+328,Officia Quasi,Livros,236.25,327,Correia
+329,Aspernatur Molestias,Brinquedos,88.46,647,Moura S.A.
+330,Commodi Nam,Casa,84.45,947,da Rosa
+331,Facilis At,Esportes,128.22,181,Mendes S.A.
+332,Incidunt Eveniet,Livros,205.0,307,Viana Teixeira - ME
+333,Commodi Illo,Esportes,374.25,570,Rocha
+334,Id Aliquid,Brinquedos,166.92,989,Fogaça Ltda.
+335,Occaecati Veritatis,Bebidas,463.81,252,Mendes
+336,Eius Esse,Esportes,278.67,739,da Paz
+337,Dolorum Facilis,Alimentos,314.26,82,Sales
+338,Occaecati Quos,Bebidas,334.76,269,da Paz S.A.
+339,Totam Ad,Beleza,316.5,936,da Rocha - ME
+340,Eligendi Repellat,Casa,391.49,459,Silveira Silva S.A.
+341,Iste Nihil,Beleza,185.28,29,Martins
+342,Unde Minima,Alimentos,433.52,634,Fernandes
+343,Aut In,Alimentos,225.9,310,da Luz
+344,Omnis Optio,Esportes,385.46,89,da Paz
+345,Voluptate Ab,Bebidas,466.13,900,Ribeiro
+346,Reiciendis Eligendi,Saúde,92.87,983,da Costa Porto S/A
+347,Eligendi Commodi,Roupas,176.45,560,da Rosa
+348,Sunt Natus,Eletrônicos,478.88,551,Cardoso
+349,Nulla Fuga,Eletrônicos,273.26,600,da Rosa Barros - ME
+350,Odio Numquam,Bebidas,223.92,553,Pereira
+351,Cumque Velit,Livros,48.48,844,Jesus
+352,Facere Ratione,Eletrônicos,82.64,156,Gomes
+353,Similique Rerum,Roupas,126.52,0,Oliveira
+354,Nihil Voluptas,Livros,306.85,136,das Neves Freitas Ltda.
+355,Veniam Suscipit,Roupas,274.33,655,Rezende
+356,Officiis Voluptatem,Saúde,59.45,31,Aragão
+357,Quae Illo,Brinquedos,310.11,495,Moreira - ME
+358,Tenetur Doloremque,Casa,61.29,375,Monteiro da Cruz e Filhos
+359,Odio Sint,Brinquedos,159.44,394,Alves Sales - EI
+360,Ea Cum,Livros,161.36,297,Cardoso Gonçalves - EI
+361,Blanditiis Libero,Brinquedos,306.96,627,Correia
+362,Tempora Tempora,Alimentos,364.91,202,Santos - ME
+363,Error Inventore,Roupas,306.22,241,Silva - EI
+364,Labore Tempora,Saúde,405.7,341,Castro
+365,Rem Alias,Alimentos,387.02,664,Nunes
+366,Minima Quia,Esportes,137.23,901,Cavalcanti Ltda.
+367,Eos Expedita,Roupas,42.61,281,da Mata
+368,Repellat Tenetur,Eletrônicos,235.19,513,Pires
+369,Optio Iusto,Alimentos,201.86,69,Dias
+370,Mollitia Voluptatem,Casa,211.06,120,Viana
+371,Quis Totam,Eletrônicos,146.5,790,Novaes da Rocha Ltda.
+372,Hic Dicta,Eletrônicos,181.22,104,Nascimento
+373,Eveniet Corrupti,Eletrônicos,459.56,159,Castro Fogaça - EI
+374,Magni Enim,Eletrônicos,367.68,599,Novaes
+375,Harum Quisquam,Esportes,64.78,341,Nunes
+376,Aspernatur Mollitia,Roupas,163.64,787,da Costa
+377,Pariatur Vero,Alimentos,224.87,245,Alves
+378,Dolore Iste,Bebidas,201.94,794,da Rosa
+379,Occaecati Aut,Casa,276.44,223,Fogaça
+380,Unde Beatae,Roupas,246.59,811,Duarte
+381,Aperiam Earum,Bebidas,139.34,921,da Paz S/A
+382,Fugit Eius,Esportes,52.05,885,Gonçalves S.A.
+383,Impedit Doloremque,Casa,14.78,610,Cardoso
+384,Veniam Nam,Saúde,485.3,799,Azevedo - EI
+385,Nam Sint,Livros,345.05,520,Aragão
+386,Maiores Vero,Brinquedos,466.65,850,Martins
+387,Iure Veniam,Bebidas,203.56,537,Oliveira - ME
+388,Nisi Eligendi,Alimentos,346.69,361,Carvalho
+389,Magnam Sint,Roupas,56.3,130,Pires
+390,Delectus Libero,Bebidas,492.91,612,da Costa
+391,Maxime Voluptate,Eletrônicos,237.47,890,Fogaça da Rosa S.A.
+392,Fuga Voluptates,Brinquedos,392.24,356,Martins - EI
+393,Porro Vel,Saúde,413.38,858,Silva
+394,Blanditiis Libero,Livros,127.69,430,Nunes
+395,Quos Numquam,Casa,82.73,614,Araújo - EI
+396,Quia Impedit,Esportes,379.56,258,Melo
+397,Modi Natus,Alimentos,40.7,748,Barbosa Ltda.
+398,Hic Nisi,Brinquedos,35.65,735,Gomes
+399,Alias Tempore,Casa,198.66,956,Melo e Filhos
+400,Quod Molestias,Bebidas,418.12,663,Gonçalves
+401,Quam Aliquid,Eletrônicos,18.92,957,da Cunha da Paz - ME
+402,Ipsam Fugiat,Roupas,404.34,572,Fernandes - EI
+403,Eos Occaecati,Eletrônicos,417.29,719,Pires
+404,Voluptates Ut,Saúde,448.99,199,Caldeira S.A.
+405,Molestiae Atque,Brinquedos,91.15,491,Pereira Souza - EI
+406,Rerum Harum,Esportes,142.9,645,Costela
+407,Exercitationem Inventore,Saúde,241.21,344,Farias Duarte e Filhos
+408,Repellendus Quisquam,Alimentos,50.8,531,da Costa Costela S/A
+409,Laborum Officia,Esportes,443.35,450,Silva
+410,Accusantium Aspernatur,Esportes,393.91,432,da Mota - EI
+411,Praesentium Commodi,Bebidas,319.11,437,Cunha
+412,Voluptate Nihil,Livros,432.08,647,da Cunha
+413,Quasi Dicta,Casa,392.54,781,Lopes S/A
+414,Autem Labore,Casa,446.96,427,Fogaça Monteiro S/A
+415,Porro Culpa,Casa,113.05,186,das Neves
+416,Quibusdam Aspernatur,Beleza,52.5,621,da Rocha Lopes S/A
+417,Aperiam Aliquid,Livros,485.83,91,Alves
+418,Quia Alias,Saúde,260.59,489,Silva
+419,Omnis Nemo,Bebidas,354.61,175,Monteiro Castro Ltda.
+420,Magni Quam,Alimentos,462.83,58,Barros
+421,Sed Tempora,Alimentos,66.89,115,Lopes
+422,Rem Nam,Saúde,378.38,556,da Mota Nogueira S.A.
+423,Cum Voluptas,Alimentos,196.63,292,Rocha
+424,Accusantium Amet,Livros,41.14,581,Mendes
+425,Odio Ab,Bebidas,298.54,166,Novaes
+426,Maxime Repudiandae,Alimentos,243.98,490,Lima Monteiro S.A.
+427,Officia Expedita,Livros,321.57,143,Rezende
+428,Perferendis Dolorem,Eletrônicos,373.22,550,Silva e Filhos
+429,Occaecati In,Casa,379.54,119,Gomes Nogueira Ltda.
+430,Consequuntur Nesciunt,Saúde,340.44,134,Silveira S/A
+431,Nobis Delectus,Saúde,177.64,101,Dias das Neves S/A
+432,Voluptatibus Ratione,Saúde,64.94,733,Melo Dias Ltda.
+433,Minus Sapiente,Eletrônicos,352.04,931,Carvalho S/A
+434,Consequuntur Tenetur,Eletrônicos,279.74,394,Farias
+435,Voluptas Reiciendis,Casa,390.95,387,Moraes da Cruz Ltda.
+436,Eaque Dolores,Bebidas,310.37,798,da Cruz S.A.
+437,Nobis Quo,Bebidas,362.08,258,Viana S/A
+438,Doloribus Labore,Eletrônicos,470.48,922,Porto - ME
+439,Doloremque Blanditiis,Brinquedos,372.11,156,Gonçalves
+440,Quis Tenetur,Alimentos,30.84,856,Freitas
+441,Sit Nam,Bebidas,272.21,734,Moura
+442,Excepturi Quaerat,Brinquedos,130.14,509,Aragão
+443,Numquam Voluptatem,Esportes,415.61,779,Rodrigues Rocha e Filhos
+444,Unde Iure,Esportes,435.54,381,Monteiro Dias S.A.
+445,Autem Non,Roupas,212.85,151,Barbosa Ltda.
+446,Ullam Ipsa,Livros,427.28,382,Fernandes Cavalcanti Ltda.
+447,Numquam Aspernatur,Casa,414.23,935,Cunha - ME
+448,Ipsum Itaque,Casa,425.07,984,Lopes Aragão - EI
+449,Accusamus Distinctio,Casa,340.48,241,Carvalho e Filhos
+450,Aut Eveniet,Eletrônicos,259.34,339,Rezende Ltda.
+451,Cum Iure,Esportes,178.92,410,Almeida
+452,Assumenda Officiis,Brinquedos,379.5,19,Martins
+453,Magni Nostrum,Eletrônicos,279.37,210,Silveira
+454,Voluptas Distinctio,Saúde,326.02,552,Ramos
+455,Voluptas Porro,Roupas,123.16,915,Barros
+456,Ea Atque,Bebidas,197.64,136,Moura
+457,Sequi Veniam,Casa,225.21,964,Novaes - ME
+458,Quaerat Laborum,Esportes,189.14,109,Cavalcanti
+459,Voluptatum Odio,Casa,367.17,464,da Costa da Costa e Filhos
+460,Voluptatem Cum,Bebidas,149.94,610,Correia
+461,Perspiciatis Voluptates,Saúde,297.95,213,Alves Santos - EI
+462,Temporibus Neque,Alimentos,136.49,596,Pires - EI
+463,Quam Sed,Eletrônicos,472.16,703,Cavalcanti S/A
+464,Necessitatibus Nulla,Livros,106.74,738,Porto S.A.
+465,Nihil Blanditiis,Saúde,480.27,738,Ramos
+466,Voluptate Ullam,Alimentos,374.92,194,Nascimento Gonçalves e Filhos
+467,Ut Vel,Beleza,292.45,749,Costa Viana e Filhos
+468,Eveniet Dolores,Beleza,35.53,307,da Cunha
+469,Temporibus Animi,Casa,25.94,975,Peixoto S.A.
+470,Libero Quo,Esportes,468.49,184,Farias
+471,Quia Non,Beleza,46.39,152,Lopes
+472,Quidem Culpa,Eletrônicos,71.92,255,Cunha
+473,Rerum Provident,Alimentos,97.5,788,Fogaça Ltda.
+474,Occaecati Doloremque,Alimentos,482.97,75,Duarte
+475,Dolor Facilis,Brinquedos,141.56,184,Rodrigues S/A
+476,Ducimus Ut,Saúde,249.53,199,da Mota S.A.
+477,Iusto Mollitia,Esportes,48.81,818,Carvalho e Filhos
+478,Minima Expedita,Casa,55.59,30,da Rosa
+479,Non Placeat,Eletrônicos,430.89,504,Pereira
+480,At Et,Roupas,466.39,698,Silveira
+481,Ea Voluptatibus,Brinquedos,461.39,456,Peixoto
+482,Nobis Molestias,Bebidas,472.96,222,Costa
+483,Sint Impedit,Alimentos,444.37,634,Pinto
+484,Aut Iure,Brinquedos,495.9,480,Castro
+485,Ipsa Odit,Livros,441.36,192,Ferreira Ltda.
+486,Illum Numquam,Bebidas,83.29,759,Dias
+487,Facere Sed,Eletrônicos,489.48,565,Cunha
+488,Dicta Repellendus,Brinquedos,436.06,370,Ribeiro Ltda.
+489,A Dicta,Esportes,286.1,860,Barros S.A.
+490,Ab Beatae,Alimentos,74.99,440,da Mata Campos - ME
+491,Deserunt Vitae,Casa,74.54,334,Moura Carvalho e Filhos
+492,Assumenda Non,Brinquedos,403.69,369,Pires
+493,Iusto Temporibus,Beleza,305.65,704,Moura e Filhos
+494,Quas Delectus,Saúde,292.28,440,Almeida
+495,Dolorem Numquam,Bebidas,381.82,300,Pereira
+496,Quis Necessitatibus,Esportes,347.28,624,Nascimento Ltda.
+497,Laboriosam Non,Eletrônicos,123.55,202,Pereira
+498,Optio Eum,Alimentos,496.0,172,Jesus Ltda.
+499,Qui Rerum,Eletrônicos,279.3,906,Oliveira - EI
+500,Commodi Culpa,Esportes,155.28,532,Correia Melo - EI

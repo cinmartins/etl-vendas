@@ -96,7 +96,13 @@ class DataTransformer:
             quantidade_total=('quantidade', 'sum')
         ).reset_index()
 
-        logger.info("Agregação de dados (vendas por categoria, top clientes, vendas mensais) concluída.")
+        # Produtos mais vendidos por mês
+        sales_with_product_name = pd.merge(self.sales_df, self.products_df[['id', 'nome']], left_on='produto_id', right_on='id')
+        self.top_products_per_month = sales_with_product_name.groupby(['mes_venda', 'nome']).agg(
+            quantidade_total=('quantidade', 'sum')
+        ).reset_index().sort_values(['mes_venda', 'quantidade_total'], ascending=[True, False])
+
+        logger.info("Agregação de dados (vendas por categoria, top clientes, vendas mensais, top produtos) concluída.")
 
     def transform(self):
         """
@@ -116,7 +122,8 @@ class DataTransformer:
             "vendas": self.sales_df,
             "vendas_por_categoria": self.sales_by_category,
             "top_clientes": self.top_customers,
-            "vendas_mensais": self.monthly_sales
+            "vendas_mensais": self.monthly_sales,
+            "produtos_mais_vendidos_por_mes": self.top_products_per_month
         }
 
 if __name__ == '__main__':
