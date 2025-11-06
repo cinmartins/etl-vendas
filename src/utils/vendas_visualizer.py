@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-class Visualizer:
+class VendasVisualizer:
     """
-    Cria visualizações minimalistas a partir dos dados transformados.
+    Cria visualizações minimalistas a partir dos dados de vendas.
     """
     def __init__(self, data_dict, config):
         """
@@ -17,11 +17,11 @@ class Visualizer:
         # Estilo minimalista, sem grades
         sns.set_theme(style="white", palette="viridis")
 
-    def create_dashboard(self):
+    def create_vendas_dashboard(self):
         """
-        Cria e salva um dashboard com um design limpo e focado.
+        Cria e salva um dashboard de vendas com um design limpo e focado.
         """
-        print("\nGerando dashboard minimalista final...")
+        print("\nGerando dashboard de vendas...")
 
         fig, axes = plt.subplots(4, 1, figsize=(12, 24))
         fig.suptitle('Análise de Performance de Vendas', fontsize=20, weight='bold', y=0.98)

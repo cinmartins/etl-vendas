@@ -1,17 +1,25 @@
 # Configuration for the ETL pipeline
 
 data:
-  raw_path: "data/raw/"
-  processed_path: "data/processed/"
   reports_path: "reports/"
-  customers_file: "customers.csv"
-  products_file: "products.csv"
-  sales_file: "sales.csv"
+
+  vendas:
+    raw_path: "data/raw/vendas/"
+    processed_path: "data/processed/vendas/"
+    customers_file: "customers.csv"
+    products_file: "products.csv"
+    sales_file: "sales.csv"
+
+  compras:
+    raw_path: "data/raw/compras/"
+    processed_path: "data/processed/compras/"
+    purchases_file: "purchases.csv"
 
 generator:
   num_customers: 1000
   num_products: 500
   num_sales: 5000
+  num_purchases: 2500
   product_categories:
     - "Eletrônicos"
     - "Livros"

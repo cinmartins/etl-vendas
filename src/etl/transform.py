@@ -14,24 +14,24 @@ class DataTransformer:
         Inicializa o transformador de dados.
         """
         self.config = load_config(config_path)
-        self.raw_path = self.config['data']['raw_path']
-        self.processed_path = self.config['data']['processed_path']
+        self.vendas_raw_path = self.config['data']['vendas']['raw_path']
+        self.vendas_processed_path = self.config['data']['vendas']['processed_path']
         self.profit_margin_rate = self.config['transformation']['profit_margin_rate']
 
     def _read_data(self):
         """
-        Lê os dados brutos do diretório.
+        Lê os dados brutos do diretório de vendas.
         """
         try:
-            customers_path = os.path.join(self.raw_path, self.config['data']['customers_file'])
+            customers_path = os.path.join(self.vendas_raw_path, self.config['data']['vendas']['customers_file'])
             self.customers_df = pd.read_csv(customers_path)
 
-            products_path = os.path.join(self.raw_path, self.config['data']['products_file'])
+            products_path = os.path.join(self.vendas_raw_path, self.config['data']['vendas']['products_file'])
             self.products_df = pd.read_csv(products_path)
 
-            sales_path = os.path.join(self.raw_path, self.config['data']['sales_file'])
+            sales_path = os.path.join(self.vendas_raw_path, self.config['data']['vendas']['sales_file'])
             self.sales_df = pd.read_csv(sales_path)
-            logger.info("Dados brutos lidos com sucesso.")
+            logger.info("Dados brutos de vendas lidos com sucesso.")
         except FileNotFoundError as e:
             logger.error(f"Erro: Arquivo não encontrado - {e}")
             raise
