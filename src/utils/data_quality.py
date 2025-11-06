@@ -36,6 +36,6 @@ class DataQuality:
             report += "="*50 + "\n\n"
 
         report_path = os.path.join(self.reports_path, "data_quality_report.txt")
-        with open(report_path, 'w') as f:
+        with open(report_path, 'w', encoding='utf-8') as f:
             f.write(report)
         print(f"Relatório de qualidade de dados salvo em '{report_path}'")
