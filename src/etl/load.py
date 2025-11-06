@@ -28,19 +28,11 @@ class DataLoader:
         for name, df in data_dict.items():
             base_path = os.path.join(self.processed_path, name)
 
-            # Salvar em CSV
-            csv_path = f"{base_path}.csv"
-            df.to_csv(csv_path, index=False)
-
-            # Salvar em JSON
-            json_path = f"{base_path}.json"
-            df.to_json(json_path, orient='records', indent=4)
-
             # Salvar em Parquet
             parquet_path = f"{base_path}.parquet"
             df.to_parquet(parquet_path, index=False)
 
-            logger.info(f"Dados de '{name}' salvos em CSV, JSON e Parquet.")
+            logger.info(f"Dados de '{name}' salvos em formato Parquet.")
         logger.info("Carregamento de dados concluído.")
 
 if __name__ == '__main__':

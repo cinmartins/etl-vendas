@@ -80,7 +80,10 @@ class DataTransformer:
         """
         # Vendas por categoria de produto
         sales_with_category = pd.merge(self.sales_df, self.products_df[['id', 'categoria']], left_on='produto_id', right_on='id')
-        self.sales_by_category = sales_with_category.groupby('categoria')['valor_total'].sum().reset_index()
+        self.sales_by_category = sales_with_category.groupby('categoria').agg(
+            valor_total=('valor_total', 'sum'),
+            quantidade_total=('quantidade', 'sum')
+        ).reset_index()
 
         # Top clientes por valor total de compras
         sales_with_customer_name = pd.merge(self.sales_df, self.customers_df[['id', 'nome']], left_on='cliente_id', right_on='id')
@@ -88,7 +91,10 @@ class DataTransformer:
 
         # Vendas mensais
         self.sales_df['mes_venda'] = self.sales_df['data_venda'].dt.to_period('M').astype(str)
-        self.monthly_sales = self.sales_df.groupby('mes_venda')['valor_total'].sum().reset_index()
+        self.monthly_sales = self.sales_df.groupby('mes_venda').agg(
+            valor_total=('valor_total', 'sum'),
+            quantidade_total=('quantidade', 'sum')
+        ).reset_index()
 
         logger.info("Agregação de dados (vendas por categoria, top clientes, vendas mensais) concluída.")
 

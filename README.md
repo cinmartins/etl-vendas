@@ -67,7 +67,7 @@ python3 main.py
 A execução do script irá realizar as seguintes etapas:
 1.  **Extração**: Gera dados fake de clientes, produtos e vendas e os salva em `data/raw/`.
 2.  **Transformação**: Limpa, valida, enriquece e agrega os dados brutos.
-3.  **Carga**: Salva os dados processados e agregados em `data/processed/` nos formatos CSV, JSON e Parquet.
+3.  **Carga**: Salva os dados processados e agregados em `data/processed/` no formato Parquet.
 4.  **Relatórios**: Gera um relatório de qualidade em `reports/data_quality_report.txt` e um dashboard visual em `reports/sales_dashboard.png`.
 5.  **Logging**: Registra todas as operações no arquivo `logs/etl_pipeline.log`.
 

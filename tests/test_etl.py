@@ -57,6 +57,4 @@ def test_data_loading(config):
 
     processed_path = config['data']['processed_path']
     for name in transformed_data.keys():
-        assert os.path.exists(os.path.join(processed_path, f"{name}.csv"))
-        assert os.path.exists(os.path.join(processed_path, f"{name}.json"))
         assert os.path.exists(os.path.join(processed_path, f"{name}.parquet"))
