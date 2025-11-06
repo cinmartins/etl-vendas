@@ -1,0 +1,113 @@
+--- Análise de Qualidade para 'clientes' ---
+Dimensões: 1000 linhas, 7 colunas
+Valores Nulos por Coluna:
+Series([], )
+
+Número de Linhas Duplicadas: 0
+
+Estatísticas Descritivas:
+                id                  data_cadastro
+count  1000.000000                           1000
+mean    500.500000  2024-11-03 18:51:36.629278976
+min       1.000000     2023-11-07 13:17:00.977476
+25%     250.750000  2024-04-30 15:17:00.954472704
+50%     500.500000  2024-11-05 13:47:46.531043584
+75%     750.250000  2025-05-11 03:09:45.248275200
+max    1000.000000     2025-11-06 09:44:51.632082
+std     288.819436                            NaN
+==================================================
+
+--- Análise de Qualidade para 'produtos' ---
+Dimensões: 500 linhas, 6 colunas
+Valores Nulos por Coluna:
+Series([], )
+
+Número de Linhas Duplicadas: 0
+
+Estatísticas Descritivas:
+               id      preco     estoque
+count  500.000000  500.00000  500.000000
+mean   250.500000  258.38646  502.056000
+std    144.481833  140.85752  286.466709
+min      1.000000   10.88000    0.000000
+25%    125.750000  134.61000  262.250000
+50%    250.500000  260.76500  508.500000
+75%    375.250000  379.65750  735.500000
+max    500.000000  499.95000  999.000000
+==================================================
+
+--- Análise de Qualidade para 'vendas' ---
+Dimensões: 5000 linhas, 8 colunas
+Valores Nulos por Coluna:
+Series([], )
+
+Número de Linhas Duplicadas: 0
+
+Estatísticas Descritivas:
+                id   cliente_id   produto_id   quantidade                     data_venda  valor_total  margem_lucro
+count  5000.000000  5000.000000  5000.000000  5000.000000                           5000  5000.000000   5000.000000
+mean   2500.500000   498.530800   249.372200     5.047600  2025-05-07 11:37:00.813358848  1315.212050    263.042410
+min       1.000000     1.000000     1.000000     1.000000     2024-11-06 15:38:55.164080    10.880000      2.176000
+25%    1250.750000   249.750000   125.750000     3.000000  2025-02-07 22:29:50.138484480   444.615000     88.923000
+50%    2500.500000   494.500000   248.000000     5.000000  2025-05-08 06:57:58.420712192  1030.080000    206.016000
+75%    3750.250000   746.250000   377.000000     7.000000  2025-08-02 04:36:42.289840384  1958.142500    391.628500
+max    5000.000000  1000.000000   500.000000     9.000000     2025-11-06 17:42:16.298508  4499.550000    899.910000
+std    1443.520003   288.009978   144.381995     2.598516                            NaN  1040.540036    208.108007
+==================================================
+
+--- Análise de Qualidade para 'vendas_por_categoria' ---
+Dimensões: 10 linhas, 2 colunas
+Valores Nulos por Coluna:
+Series([], )
+
+Número de Linhas Duplicadas: 0
+
+Estatísticas Descritivas:
+         valor_total
+count      10.000000
+mean   657606.025000
+std     91003.027188
+min    555477.240000
+25%    593957.325000
+50%    637885.690000
+75%    703025.260000
+max    825120.060000
+==================================================
+
+--- Análise de Qualidade para 'top_clientes' ---
+Dimensões: 10 linhas, 2 colunas
+Valores Nulos por Coluna:
+Series([], )
+
+Número de Linhas Duplicadas: 0
+
+Estatísticas Descritivas:
+        valor_total
+count     10.000000
+mean   20236.275000
+std     1766.506818
+min    18309.870000
+25%    18981.552500
+50%    19701.565000
+75%    21421.155000
+max    23292.460000
+==================================================
+
+--- Análise de Qualidade para 'vendas_mensais' ---
+Dimensões: 13 linhas, 2 colunas
+Valores Nulos por Coluna:
+Series([], )
+
+Número de Linhas Duplicadas: 0
+
+Estatísticas Descritivas:
+         valor_total
+count      13.000000
+mean   505850.788462
+std    132128.023506
+min    108736.000000
+25%    497185.900000
+50%    536246.780000
+75%    561446.490000
+max    669119.050000
+==================================================

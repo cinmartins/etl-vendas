@@ -1,0 +1,8 @@
+pandas==2.1.2
+numpy==1.26.1
+Faker==20.1.0
+matplotlib==3.8.1
+seaborn==0.13.0
+pyarrow==14.0.1
+PyYAML==6.0.1
+pytest==7.4.3

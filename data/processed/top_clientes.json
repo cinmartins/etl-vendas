@@ -1,0 +1,42 @@
+[
+    {
+        "nome":"Sarah Novaes",
+        "valor_total":24691.47
+    },
+    {
+        "nome":"Isabel Teixeira",
+        "valor_total":20649.14
+    },
+    {
+        "nome":"Pedro Lucas Novaes",
+        "valor_total":20576.45
+    },
+    {
+        "nome":"Dra. B\u00e1rbara Viana",
+        "valor_total":20332.72
+    },
+    {
+        "nome":"Rodrigo Barbosa",
+        "valor_total":19565.07
+    },
+    {
+        "nome":"Leandro Almeida",
+        "valor_total":19440.54
+    },
+    {
+        "nome":"Rodrigo da Cunha",
+        "valor_total":19335.76
+    },
+    {
+        "nome":"Alice Alves",
+        "valor_total":18950.82
+    },
+    {
+        "nome":"Theo Martins",
+        "valor_total":18624.76
+    },
+    {
+        "nome":"Pedro Farias",
+        "valor_total":18491.13
+    }
+]
