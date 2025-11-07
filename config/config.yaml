@@ -3,11 +3,15 @@
 data:
   reports_path: "reports/"
 
+  dimensao:
+    raw_path: "data/raw/dimensao/"
+    processed_path: "data/processed/dimensao/"
+    customers_file: "customers.csv"
+    products_file: "products.csv"
+
   vendas:
     raw_path: "data/raw/vendas/"
     processed_path: "data/processed/vendas/"
-    customers_file: "customers.csv"
-    products_file: "products.csv"
     sales_file: "sales.csv"
 
   compras:

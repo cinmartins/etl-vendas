@@ -7,10 +7,24 @@ from src.utils.vendas_visualizer import VendasVisualizer
 from src.utils.compras_visualizer import ComprasVisualizer
 from src.utils.config_loader import load_config
 from src.utils.logger import logger
-import pandas as pd
-import os
 
-def run_vendas_pipeline(config):
+def run_dimensao_pipeline(config):
+    """
+    Orquestra a geração e o carregamento dos dados dimensionais.
+    """
+    logger.info("Iniciando o pipeline de Dimensão...")
+    generator = DataGenerator()
+    customers_df, products_df = generator.generate_dimensao_data()
+
+    loader = DataLoader()
+    loader.save_dimensao_data({
+        "clientes": customers_df,
+        "produtos": products_df
+    })
+    logger.info("Pipeline de Dimensão concluído com sucesso!")
+    return customers_df, products_df
+
+def run_vendas_pipeline(customers_df, products_df, config):
     """
     Orquestra a execução completa do pipeline de Vendas.
     """
@@ -18,7 +32,7 @@ def run_vendas_pipeline(config):
 
     # Etapa de Extração
     generator = DataGenerator()
-    _, products_df, _ = generator.generate_vendas_data()
+    generator.generate_vendas_data(customers_df, products_df)
 
     # Etapa de Transformação
     transformer = DataTransformer()
@@ -33,7 +47,7 @@ def run_vendas_pipeline(config):
     visualizer.create_vendas_dashboard()
 
     logger.info("Pipeline de Vendas concluído com sucesso!")
-    return products_df, transformed_data
+    return transformed_data
 
 def run_compras_pipeline(products_df, config):
     """
@@ -41,12 +55,12 @@ def run_compras_pipeline(products_df, config):
     """
     logger.info("Iniciando o pipeline de Compras...")
 
-    # Etapa de Extração (os dados de produtos são reutilizados)
+    # Etapa de Extração
     generator = DataGenerator()
     generator.generate_compras_data(products_df)
 
     # Etapa de Transformação
-    compras_transformer = ComprasDataTransformer(products_df)
+    compras_transformer = ComprasDataTransformer()
     transformed_data = compras_transformer.transform()
 
     # Etapa de Carregamento
@@ -60,7 +74,6 @@ def run_compras_pipeline(products_df, config):
     logger.info("Pipeline de Compras concluído com sucesso!")
     return transformed_data
 
-
 def main():
     """
     Ponto de entrada principal para todos os pipelines.
@@ -71,7 +84,9 @@ def main():
         config = load_config()
         dq_checker = DataQuality(config)
 
-        products_df, vendas_data = run_vendas_pipeline(config)
+        customers_df, products_df = run_dimensao_pipeline(config)
+
+        vendas_data = run_vendas_pipeline(customers_df, products_df, config)
         dq_checker.check(vendas_data, "Vendas")
 
         compras_data = run_compras_pipeline(products_df, config)

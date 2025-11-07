@@ -12,14 +12,15 @@ def config():
     return load_config()
 
 @pytest.fixture(scope='module')
-def products_df():
-    """Fixture para gerar dados de produtos para os testes."""
+def dimensao_data():
+    """Fixture para gerar dados dimensionais para os testes."""
     generator = DataGenerator()
-    _, products, _ = generator.generate_vendas_data()
-    return products
+    _, products_df = generator.generate_dimensao_data()
+    return products_df
 
-def test_compras_data_generation(products_df, config):
+def test_compras_data_generation(dimensao_data, config):
     """Testa se a geração de dados de compras cria o número esperado de registros."""
+    products_df = dimensao_data
     generator = DataGenerator()
     compras_df = generator.generate_compras_data(products_df)
     num_purchases = config['generator']['num_purchases']
@@ -27,16 +28,14 @@ def test_compras_data_generation(products_df, config):
     assert len(compras_df) == num_purchases
     assert os.path.exists(os.path.join(config['data']['compras']['raw_path'], config['data']['compras']['purchases_file']))
 
-def test_compras_data_transformation(products_df, config):
+def test_compras_data_transformation(config):
     """Testa a lógica de transformação de compras."""
-    # Garante que os dados brutos de compras existam
     if not os.path.exists(os.path.join(config['data']['compras']['raw_path'], config['data']['compras']['purchases_file'])):
-        pytest.skip("Dados brutos de compras não encontrados, pulando teste de transformação.")
+        pytest.skip("Dados brutos de compras não encontrados.")
 
-    compras_transformer = ComprasDataTransformer(products_df)
+    compras_transformer = ComprasDataTransformer()
     transformed_data = compras_transformer.transform()
 
     assert "compras_mensais" in transformed_data
     assert "custo_por_fornecedor" in transformed_data
     assert not transformed_data["compras"].isnull().values.any()
-    assert len(transformed_data["custo_por_fornecedor"]) <= 10

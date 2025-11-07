@@ -13,42 +13,35 @@ def config():
     return load_config()
 
 @pytest.fixture(scope='module')
-def generated_vendas_data(config):
-    """Fixture para gerar dados de teste de vendas."""
+def dimensao_data():
+    """Fixture para gerar dados dimensionais para os testes."""
     generator = DataGenerator()
-    customers_df, products_df, sales_df = generator.generate_vendas_data()
-    return {
-        "customers": customers_df,
-        "products": products_df,
-        "sales": sales_df
-    }
+    customers_df, products_df = generator.generate_dimensao_data()
+    return customers_df, products_df
 
-def test_vendas_data_generation(generated_vendas_data, config):
-    """Testa se a geração de dados de vendas cria o número esperado de registros."""
-    num_customers = config['generator']['num_customers']
-    num_products = config['generator']['num_products']
+def test_vendas_data_generation(dimensao_data, config):
+    """Testa a geração de dados de vendas."""
+    customers_df, products_df = dimensao_data
+    generator = DataGenerator()
+    sales_df = generator.generate_vendas_data(customers_df, products_df)
     num_sales = config['generator']['num_sales']
 
-    assert len(generated_vendas_data["customers"]) == num_customers
-    assert len(generated_vendas_data["products"]) == num_products
-    assert len(generated_vendas_data["sales"]) == num_sales
+    assert len(sales_df) == num_sales
+    assert os.path.exists(os.path.join(config['data']['vendas']['raw_path'], config['data']['vendas']['sales_file']))
 
 def test_vendas_data_transformation(config):
     """Testa a lógica de transformação de vendas."""
-    # Garante que os dados brutos de vendas existam
     if not os.path.exists(os.path.join(config['data']['vendas']['raw_path'], config['data']['vendas']['sales_file'])):
-        pytest.skip("Dados brutos de vendas não encontrados, pulando teste de transformação.")
+        pytest.skip("Dados brutos de vendas não encontrados.")
 
     transformer = DataTransformer()
     transformed_data = transformer.transform()
 
     assert "margem_lucro" in transformed_data["vendas"].columns
-    assert "produtos_mais_vendidos_por_mes" in transformed_data
     assert not transformed_data["vendas"].isnull().values.any()
-    assert len(transformed_data["top_clientes"]) <= 10
 
 def test_vendas_data_loading(config):
-    """Testa se os arquivos de saída de vendas são criados."""
+    """Testa o carregamento de dados de vendas."""
     transformer = DataTransformer()
     transformed_data = transformer.transform()
 

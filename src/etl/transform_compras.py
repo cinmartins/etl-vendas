@@ -8,22 +8,25 @@ class ComprasDataTransformer:
     """
     Transforma os dados brutos de compras, aplicando limpeza, cálculos e agregações.
     """
-    def __init__(self, products_df, config_path='config/config.yaml'):
+    def __init__(self, config_path='config/config.yaml'):
         """
         Inicializa o transformador de dados de compras.
         """
         self.config = load_config(config_path)
+        self.dimensao_raw_path = self.config['data']['dimensao']['raw_path']
         self.compras_raw_path = self.config['data']['compras']['raw_path']
-        self.products_df = products_df # Recebe o DF de produtos para joins
 
     def _read_data(self):
         """
-        Lê os dados brutos de compras do diretório.
+        Lê os dados brutos dimensionais e de compras.
         """
         try:
+            products_path = os.path.join(self.dimensao_raw_path, self.config['data']['dimensao']['products_file'])
+            self.products_df = pd.read_csv(products_path)
+
             purchases_path = os.path.join(self.compras_raw_path, self.config['data']['compras']['purchases_file'])
             self.purchases_df = pd.read_csv(purchases_path)
-            logger.info("Dados brutos de compras lidos com sucesso.")
+            logger.info("Dados brutos (dimensões e compras) lidos com sucesso.")
         except FileNotFoundError as e:
             logger.error(f"Erro: Arquivo de compras não encontrado - {e}")
             raise
@@ -81,11 +84,7 @@ class ComprasDataTransformer:
         }
 
 if __name__ == '__main__':
-    config = load_config()
-    products_path = os.path.join(config['data']['vendas']['raw_path'], config['data']['vendas']['products_file'])
-    products_df = pd.read_csv(products_path)
-
-    compras_transformer = ComprasDataTransformer(products_df)
+    compras_transformer = ComprasDataTransformer()
     transformed_compras_data = compras_transformer.transform()
 
     for name, df in transformed_compras_data.items():

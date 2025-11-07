@@ -17,8 +17,10 @@ class DataGenerator:
         """
         self.config = load_config(config_path)
         self.faker = Faker('pt_BR')
+        self.dimensao_raw_path = self.config['data']['dimensao']['raw_path']
         self.vendas_raw_path = self.config['data']['vendas']['raw_path']
         self.compras_raw_path = self.config['data']['compras']['raw_path']
+        os.makedirs(self.dimensao_raw_path, exist_ok=True)
         os.makedirs(self.vendas_raw_path, exist_ok=True)
         os.makedirs(self.compras_raw_path, exist_ok=True)
 
@@ -78,23 +80,32 @@ class DataGenerator:
             })
         return pd.DataFrame(data)
 
-    def generate_vendas_data(self):
+    def generate_dimensao_data(self):
         """
-        Orquestra a geração de dados de vendas e os salva em arquivos CSV.
+        Gera e salva os dados dimensionais (clientes e produtos).
         """
-        logger.info("Iniciando a geração de dados de vendas...")
+        logger.info("Iniciando a geração de dados dimensionais...")
 
         num_customers = self.config['generator']['num_customers']
         customers_df = self.generate_customers_data(num_customers)
-        customers_path = os.path.join(self.vendas_raw_path, self.config['data']['vendas']['customers_file'])
+        customers_path = os.path.join(self.dimensao_raw_path, self.config['data']['dimensao']['customers_file'])
         customers_df.to_csv(customers_path, index=False)
         logger.info(f"{num_customers} registros de clientes gerados e salvos em '{customers_path}'")
 
         num_products = self.config['generator']['num_products']
         products_df = self.generate_products_data(num_products)
-        products_path = os.path.join(self.vendas_raw_path, self.config['data']['vendas']['products_file'])
+        products_path = os.path.join(self.dimensao_raw_path, self.config['data']['dimensao']['products_file'])
         products_df.to_csv(products_path, index=False)
         logger.info(f"{num_products} registros de produtos gerados e salvos em '{products_path}'")
+
+        logger.info("Geração de dados dimensionais concluída.")
+        return customers_df, products_df
+
+    def generate_vendas_data(self, customers_df, products_df):
+        """
+        Gera e salva os dados de fatos de vendas.
+        """
+        logger.info("Iniciando a geração de dados de vendas...")
 
         num_sales = self.config['generator']['num_sales']
         sales_df = self.generate_sales_data(num_sales, customers_df, products_df)
@@ -103,7 +114,7 @@ class DataGenerator:
         logger.info(f"{num_sales} registros de vendas gerados e salvos em '{sales_path}'")
 
         logger.info("Geração de dados de vendas concluída.")
-        return customers_df, products_df, sales_df
+        return sales_df
 
     def generate_compras_data(self, products_df):
         """
@@ -132,5 +143,6 @@ class DataGenerator:
 
 if __name__ == '__main__':
     generator = DataGenerator()
-    customers, products, sales = generator.generate_vendas_data()
+    customers, products = generator.generate_dimensao_data()
+    generator.generate_vendas_data(customers, products)
     generator.generate_compras_data(products)
