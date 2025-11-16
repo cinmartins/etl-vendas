@@ -1,0 +1,45 @@
+# Configuration for the ETL pipeline
+
+data:
+  reports_path: "reports/"
+
+  dimensao:
+    raw_path: "data/raw/dimensao/"
+    processed_path: "data/processed/dimensao/"
+    customers_file: "customers.csv"
+    products_file: "products.csv"
+
+  vendas:
+    raw_path: "data/raw/vendas/"
+    processed_path: "data/processed/vendas/"
+    sales_file: "sales.csv"
+
+  compras:
+    raw_path: "data/raw/compras/"
+    processed_path: "data/processed/compras/"
+    purchases_file: "purchases.csv"
+
+generator:
+  num_customers: 1000
+  num_products: 500
+  num_sales: 5000
+  num_purchases: 2500
+  product_categories:
+    - "Eletrônicos"
+    - "Livros"
+    - "Roupas"
+    - "Alimentos"
+    - "Bebidas"
+    - "Casa"
+    - "Esportes"
+    - "Brinquedos"
+    - "Saúde"
+    - "Beleza"
+
+transformation:
+  profit_margin_rate: 0.2
+
+logging:
+  log_file: "logs/etl_pipeline.log"
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
